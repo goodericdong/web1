@@ -13,10 +13,12 @@ library(pander)
 ```
 
 
-## Course objectives
+## Course Description
 
-Test
+This finance course is the only one required in the MBA program. Within our term of study we aim to provide students with a solid financial background, which entails two components. Firstly, we seek for our students to acquire substantial practical skills and understanding of the subject matter which can be leveraged for use in both analytical and industry settings. Secondly, we aim to provide a base of financial education that can be used for further academic study. To meet these goals we present a body of theory central to the understanding of the issues in finance and a set a tools and techniques of financial analysis which are widely considered to be fundament. 
 
-## Course test
+## Course Objectives
 
-test 2
+This course provides you with a framework with which to analyze individual and corporate investment and financing decisions. We will introduce the concepts of time and risk, which are the foundation for all financial decisions. We will then apply these concepts to the valuation of individual securities, such as stocks and bonds, and to capital investments undertaken by corporations.
+
+Through this framework, we will gain an understanding of financial markets and the process by which companies make their investment decisions.
