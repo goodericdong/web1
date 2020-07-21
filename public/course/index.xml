@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filler Slide | MBAS 821 Finance Fundamentals</title>
+    <link>/course/</link>
+      <atom:link href="/course/index.xml" rel="self" type="application/rss+xml" />
+    <description>Filler Slide</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 04 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Filler Slide</title>
+      <link>/course/</link>
+    </image>
+    
+    <item>
+      <title>Lecture 1: Introduction to Finance</title>
+      <link>/course/01-content/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/course/01-content/</guid>
+      <description>
+
+
+&lt;p style=&#34;text-align:center;&#34;&gt;
+&lt;a href=&#34;/slides/01-slide/01-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/span&gt; &lt;/a&gt;
+&lt;a href=&#34;/slides/01-slide/01-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/span&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

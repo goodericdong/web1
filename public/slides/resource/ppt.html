@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>COMM 420: Financial Technology &amp; Innovation</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ryan Riordan" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="atacss.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# COMM 420: Financial<br>Technology &amp; Innovation
+## Exchanges and Limit Order Markets
+### Ryan Riordan
+
+---
+
+&lt;style type="text/css"&gt;
+.remark-slide-content {
+  font-size: 18px;
+  padding: 20px 80px 20px 80px;
+}
+.remark-code, .remark-inline-code {
+  background: #f0f0f0;
+}
+.remark-code {
+  font-size: 20px;
+}
+.huge .remark-code { /*Change made here*/
+  font-size: 200% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 75% !important;
+}
+&lt;/style&gt;
+
+Agenda
+================================
+
+.large[
+- Market types
+
+
+- Order types
+
+
+- Cost of Trading
+
+
+- Assessing market quality
+]
+
+
+---
+class: left, middle
+
+# What gets traded?
+
+---
+class: left
+
+# What gets traded?
+
+- .large[Securities:]
+
+--
+
+  - Stocks 
+  
+--
+  
+  - Bonds 
+  
+--
+  
+  - Options 
+  
+--
+  
+  - Futures
+  
+--
+  
+  - Rates
+  
+--
+  
+  - Currency
+  
+--
+  
+  - ...
+  
+---
+class: left, middle
+
+# Market types
+
+---
+# Market types
+.pull-left[.border2[
+ .large[.center[.white[By items trade]]]
+ 
+ 
+  - .med[.white[Stock market]]
+  
+  
+  - .med[.white[Bond market]]   
+  
+  
+  - .med[.white[Commodity market]]   
+  
+  
+  - .med[.white[Foreign exchange market]]
+]]
+
+.pull-right[.border2[
+ .large[.center[.white[By security type]]]
+ 
+ 
+ - .med[.white[Spot market]]   
+ 
+ 
+ - .med[.white[Derivative/future market]]
+ 
+ 
+ &lt;br&gt;
+ &lt;br&gt; 
+ &lt;br&gt; 
+]]
+
+
+???
+Different ways of categorizing markets.
+
+Today we will focus on the stock market mostly.
+
+
+---
+
+![](stockmarket.png)
+
+---
+
+
+Primary market
+===================
+
+- .large[A market where securities/stocks are created by the firm and sold to investors.]
+
+
+- .large[Examples:]
+  - IPO (Initial public offering)
+  - Rights offering
+  - Private placement
+  - Preferential allotment
+
+???
+Rights offering: firms that are already in the secondary market raising additional capital by issuing more shares and current shareholders have the rights to purchase such shares first.
+
+Private placement: Directly issue and sell shares to a private entities such as hedge funds or banks.
+
+Preferential allotment: Offering shares to investors (hedge funds, banks again) at an exclusive discounted price which is not available to the public.
+
+---
+
+Secondary Market
+===================
+- .large[A market where shareholders/investors trade with each other on the outstanding shares of firms.]
+
+
+- .large[Types of secondary market depends on the trading mechanism]
+  - Auction market/Organized exchange: Everyone get together and declare their price and trade accordingly.
+  - Dealer market: Dealers have inventory of stocks and trade to both buyers and sellers and earn profit through the spread.
+  - OTC, third and fourth markets
+
+---
+
+Auction market / Organized exchange
+===================
+- .large[NYSE]
+- .large[Specialists: Focusing on one or several stocks, and maintain a book of all unexecuted orders and decide the bid-ask prices.]
+  - .med[Act as both broker and dealer]
+      - Broker: execute the buy/sell order on behalf of clients
+      - Dealer: trade on their own account and inventories
+  - .med[Specialist can reduce the bid-ask spread in their discretion.]
+      - Example:
+          - highest unexecuted bid: $10
+          - Lowest unexecuted ask: $12
+          - A specialist can offer bid at $11 and ask at $11.05 such that the spread is reduced to a more reasonable level.
+
+
+---
+
+
+Dealer market
+===================
+- .large[Nasdaq]
+
+
+- .large[No specialist but dealers/market makers exist to provide liquidity]
+
+
+- .large[Difference between dealer and auction market]
+  - .med[No central location needed]
+  - .med[Negotiated market]
+  - .med[Can have more than 1 dealer per stock]
+
+---
+
+.exl[Over-the-counter markets]
+- .large[Used to mean the same thing as dealer market]
+- .large[Now primarily used to refer to stocks that are not listed on NYSE, Nasdaq and AMEX, e.g. OTCBB, OTC Markets Group.]
+
+.exl[Third market]
+- .large[OTC transaction on listed stocks]
+
+.exl[Fourth market]
+- .large[Large institutions trading directly without brokers]
+
+---
+.little[Top stock exchange by market capitalization]
+=====================================================
+.pull-left1[
+ As of 30 Nov 2018
+]
+
+.pull-right1[
+![](stockexchange.png)
+]
+
+???
+https://en.wikipedia.org/wiki/List_of_stock_exchanges
+
+---
+
+
+class: left, middle
+
+# Type of Orders
+
+---
+
+Types of Orders
+======================
+
+.pull-left[
+
+  .pull-left[.border3[.center[
+    Market Order
+  ]]
+      &lt;br&gt;&lt;br&gt;-Will execute instantaneously at whatever the best available price is.
+      &lt;br&gt;&lt;br&gt;
+      -Guarantees that the order will be executed, but does not guarantee the execution price.
+  ]
+  .pull-right[.border4[.center[
+    Price Contingent
+  ]]
+      &lt;br&gt;&lt;br&gt;-"Limit order"
+      &lt;br&gt;&lt;br&gt;
+      -Will only execute if it matches an existing order, otherwise added to the book.
+      &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+  ]
+]
+
+.pull-right[
+
+  .pull-left[.border5[.center[
+    Stop
+  ]]
+      &lt;br&gt;&lt;br&gt;-(-loss, -buy, limit)
+      &lt;br&gt;&lt;br&gt;
+      -Will execute once the price reaches the specific price (known as the 'stop price').
+      &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+  ]
+  .pull-right[.border6[.center[
+    Time Expiry
+  ]]
+      &lt;br&gt;&lt;br&gt;-Time limit on the execution of the order.
+      &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+  ]
+]
+
+---
+
+Limit Order Markets
+=====================
+
+- Limit order markets provide two basic order types
+  - .blue[Market orders:] "A market order is an instruction to trade at the best price currently available in the market"(Harris 2003, p. 71)
+  - .blue[Limit orders:] "A limit order is an instruction to trade at the best price available, but only if it is no worse than the limit price specified by the trader" (Harris 2003, p. 73)
+
+
+- Terms:
+  - .blue[Bid:] bid price is the price at which a trader is willing to buy securities
+  - .blue[Best bid:] best bid is the highest bid price in a market
+  - .blue[Ask:] ask price is the price at which a trader is willing to sell securities
+  - .blue[Best ask:] best ask is the lowest ask price in a market
+
+---
+Order Book Example
+==============
+.pull-left[
+
+```
+## Warning: package 'lattice' was built under R version 3.4.4
+```
+
+```
+## Warning: package 'hash' was built under R version 3.4.4
+```
+
+```
+## Warning in as.POSIXlt.POSIXct(Sys.time()): unknown timezone 'zone/tz/2019b.
+## 1.0/zoneinfo/America/Toronto'
+```
+
+```
+## 
+## Current time is 13:35:02 
+## 
+## 		 Price 	 Ask Size
+## ---------------------------------------------
+## 		 11.42 	 900 
+## 		 11.41 	 1,400 
+## 		 11.40 	 1,205 
+## 		 11.39 	 1,600 
+## 		 11.38 	 400 
+## ---------------------------------------------
+##   2,700 	 11.36 
+##   1,100 	 11.35 
+##   1,100 	 11.34 
+##   1,600 	 11.33 
+##     700 	 11.32 
+## ---------------------------------------------
+## Bid Size 	 Price
+```
+]
+---
+Orderbook Example Continued
+==============
+.center[
+![](ppt_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+]
+---
+Limit Orders
+==============
+
+![](limitorders2.png)
+
+---
+
+class: left, middle
+
+#Cost of Trading  
+
+---
+
+Costs of Trading
+=====================
+
+- .large[.blue[Commission:]fee paid to broker for making the transaction]
+  - .med[Full service broker]
+  - .med[Discount broker]
+  
+- .large[.blue[Spread:]cost of trading with dealer]
+  - .med[Bid: price dealer will buy from you]
+  - .med[Ask: price dealer will sell to you]
+  - .med[Spread: ask - bid]
+  
+- .large[.blue[Combination:]both on some trades]
+
+---
+
+Quoted Spread (I)
+========================
+
+- .large[.blue[Quoted Spread] is the difference between the lowest ask and highest bid price in an order book]
+
+
+.center[.grass[.little["The bid-ask spread is the price impatient traders pay for immediacy"]] .small[(Harris 2003, 297)]]
+
+.center[.border1[.med[
+`$$\text{Quoted Spread}_{i,t} =  (\text{Ask}_{i,t} - \text{Bid}_{i,t})/(2*\text{Mid}_{i,t})$$` ]]]
+
+- .large[The .blue[half quoted spread] is calculated relative to the stock price and results are usually reported in basis points (bps) in academic literature]
+  - .med[Basis points: 1 bp = 1 / 10000 = 1% / 100]
+  - .med[In practice spreads are usually reported in cents/pennies.]
+
+---
+
+Quoted Spread (II)
+=====================
+
+.large[The .blue[quoted spread] on Xetra is created through public limit orders]
+
+![](quotedspread2.png)
+
+---
+
+Effective Spread (I)
+============================
+
+- .large[.blue[Effective spread] is the spread that is actually paid by someone trading with market orders.]
+  - .med[It takes into account a specific trade for its calculation]
+.center[.border1[.med[
+`$$\text{Effective spread}_{i,t} = D_{i,j} *((\text{Price}_{i,t} - \text{Mid}_{i,t})/ \text{Mid}_{i,t})$$`]]]
+
+- .large[.blue[Large orders] sweep the book such that the average spread paid for a trade is higher than the quoted spread]
+
+---
+
+Effective Spread (II)
+=============================
+
+![](effectivespread.png)
+
+---
+
+Example Spreads in a Limit Order Market
+============================================
+.pull-left[.tiny[
+
+```
+## 
+## Current time is 13:35:02 
+## 
+## 		 Price 	 Ask Size
+## ---------------------------------------------
+## 		 11.42 	 900 
+## 		 11.41 	 1,400 
+## 		 11.40 	 1,205 
+## 		 11.39 	 1,600 
+## 		 11.38 	 400 
+## ---------------------------------------------
+##   2,700 	 11.36 
+##   1,100 	 11.35 
+##   1,100 	 11.34 
+##   1,600 	 11.33 
+##     700 	 11.32 
+## ---------------------------------------------
+## Bid Size 	 Price
+```
+]]
+.pull-right[.tiny[
+
+```
+## 
+## Current time is 13:35:02 
+## 
+## Ask price levels:   540 
+## Bid price levels:   179 
+## Total price levels: 719 
+## -----------------------------
+## Ask orders:         1,856 
+## Bid orders:         631 
+## Total orders:       2,487 
+## -----------------------------
+## Spread:             0.02 
+## 
+## Mid point:          11.37 
+## -----------------------------
+## Inside market 
+##  
+## Best Bid:           11.36 
+## Size:               2,700 
+##  
+## Best Ask:           11.38 
+## Size:               400
+```
+]]
+
+---
+Example Spreads in a Limit Order Market
+===========================================
+
+[CBOE](https://markets.cboe.com/us/equities/market_statistics/book_viewer/)
+
+---
+
+Market fragmentation
+=========================
+
+- .large[A stock may have different bid-ask price and spread depending on the trading platform]
+
+
+- .large[NYSE vs Nasdaq vs other stock exchange vs Alternative Trading Systems (ATS)]
+
+
+- .large[Usually the difference is minimal and disappear instantly so there is no arbitrage]
+
+
+- .large[We will discuss arbitrage and order routing in future classes]
+---
+
+Example Spreads in a Limit Order Market
+============================================
+
+![](example.png)
+
+---
+
+Discount Broker Order Example .small[(RBC Direct Investing)]
+=================================================================
+
+.container[![](discountbroker.png)]
+
+---
+
+class: left, middle
+
+#Assessing Market Quality
+
+---
+
+Market Quality Parameters
+==========================
+
+- .large[Spread and transaction costs]
+
+
+- .large[Liquidity]
+
+
+- .large[Volatility]
+
+---
+
+Transaction costs
+==================================
+
+.container[![](transactioncosts.png)]
+
+A Century of Stock Market Liquidity and Trading Costs (Jones, 2002) 
+
+---
+
+Liquidity
+=============
+
+.container[![](liquidity.png)]
+
+A Century of Stock Market Liquidity and Trading Costs (Jones, 2002) 
+
+---
+
+Volatility
+============
+
+.container[![](volatility.png)]
+
+.small[VIX volatility index: https://www.macrotrends.net/2603/vix-volatility-index-historical-chart]
+
+???
+Grey area are during recessions.
+
+---
+
+The Power of Electronic Limit Order Book
+==========================================
+
+- .large[Glosten (1994) Journal of Finance]
+- .large[Theoretical paper discussing the effectiveness of electronic limit order book.]
+.center[ in the determination of offers(bids).
+.highlight[While exhibiting a small-trade spread, the open limit order book provides environments. The article suggests that if there is a large population of potential liquidity suppliers, and if the actual costs of running an exchange are small, then among exchanges that operate continuously and anonymously, and supply nice marginal price schedules, the electronic exchange is the only one that does not tend to engender additional competing exchanges.]]
+
+- .large[Conclusion: an exchange with electronic limit order book theoretically outcompetes other exchanges in terms of liquidity provided.]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

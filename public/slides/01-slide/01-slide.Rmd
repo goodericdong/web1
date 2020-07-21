@@ -1,0 +1,74 @@
+---
+title: "MBAS 821: Lecture 1"
+subtitle: "Introduction to Finance"
+author: "Ryan Riordan"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "atacss.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+```{css, echo = FALSE}
+.remark-slide-content {
+  font-size: 18px;
+  padding: 20px 80px 20px 80px;
+}
+.remark-code, .remark-inline-code {
+  background: #f0f0f0;
+}
+.remark-code {
+  font-size: 20px;
+}
+.huge .remark-code { /*Change made here*/
+  font-size: 200% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 75% !important;
+}
+```
+
+Overview of Financial Markets
+================================
+
+- .large[Why do we need financial markets?]
+
+  - A simple two period model of financial markets
+  
+  - The investment rule
+  
+  - The separation principle
+<br><br><br><br>  
+- .large[Readings: Chapter 1]
+
+
+
+- .large[Textbook Practice Problems:]
+
+  - Insert practice problems here
+
+
+---
+class: left, middle
+
+# Lifetime Consumption Smoothing
+
+![](1-LCS.jpg)
+
+---
+# Consumption Over Time Example
+
+.large[
+- Suppose you have $50,000 in income each year
+
+- Market Interest rate = 10%
+
+<br><br>
+
+- If there is the opportunity for investment in a project that costs $30,000 that pays off $32,000 in period 1.
+
+- Should the project be undertaken?
+]
