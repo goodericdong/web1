@@ -35,6 +35,19 @@
     </item>
     
     <item>
+      <title>Topic 1: Time Value of Money</title>
+      <link>/slides/01-content/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/slides/01-content/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;a href=&#34;/slides/01-slide/01-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/slides/01-slide/01-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Writing technical content in Academic</title>
       <link>/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
@@ -625,212 +638,23 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
+      <title>General</title>
+      <link>/course/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/course/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;a href=&#34;../../files/MBAS-Financial-Fundamentals-Summer-2020.docx&#34;&gt;Course outline&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Instructor</title>
       <link>/instructor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/instructor/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Lecture 1: Introduction to Finance</title>
-      <link>/course/01-content/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/course/01-content/</guid>
-      <description>
-
-
-&lt;p style=&#34;text-align:center;&#34;&gt;
-&lt;a href=&#34;/slides/01-slide/01-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/span&gt; &lt;/a&gt;
-&lt;a href=&#34;/slides/01-slide/01-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/span&gt;&lt;/a&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>/syllabus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/syllabus/</guid>
-      <description>
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#course-description&#34;&gt;Course Description&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#course-objectives&#34;&gt;Course Objectives&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#course-materials&#34;&gt;Course Materials&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#text&#34;&gt;Text&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#other-recommended-material&#34;&gt;Other recommended material&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#course-website&#34;&gt;Course Website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#evaluation&#34;&gt;Evaluation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#class-structure&#34;&gt;Class Structure&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#group-policy&#34;&gt;Group Policy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;Assignments&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#cases&#34;&gt;Cases&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#e-mail-policy&#34;&gt;E-mail Policy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#academic-integrity&#34;&gt;Academic Integrity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#class-schedule&#34;&gt;Class Schedule&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#class-1&#34;&gt;Class 1&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#time-value-of-money&#34;&gt;Time Value of Money&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#class-2&#34;&gt;Class 2&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#capital-budgeting&#34;&gt;Capital Budgeting&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#class-3&#34;&gt;Class 3&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#financial-forecasting&#34;&gt;Financial Forecasting&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#class-4&#34;&gt;Class 4&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#firm-and-securities-valuation&#34;&gt;Firm and Securities Valuation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#class-5&#34;&gt;Class 5&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#risk-and-return-of-the-capital-market&#34;&gt;Risk and Return of the Capital Market&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#class-6&#34;&gt;Class 6&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#cost-of-capital&#34;&gt;Cost of Capital&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#ta-sessions&#34;&gt;TA Sessions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#disabilities-policy&#34;&gt;Disabilities Policy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;course-description&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Course Description&lt;/h1&gt;
-&lt;p&gt;This finance course is the only one required in the MBA program. Within our term of study we aim to provide students with a solid financial background, which entails two components. Firstly, we seek for our students to acquire substantial practical skills and understanding of the subject matter which can be leveraged for use in both analytical and industry settings. Secondly, we aim to provide a base of financial education that can be used for further academic study. To meet these goals we present a body of theory central to the understanding of the issues in finance and a set a tools and techniques of financial analysis which are widely considered to be fundament.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;course-objectives&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Course Objectives&lt;/h1&gt;
-&lt;p&gt;This course provides you with a framework with which to analyze individual and corporate investment and financing decisions. We will introduce the concepts of time and risk, which are the foundation for all financial decisions. We will then apply these concepts to the valuation of individual securities, such as stocks and bonds, and to capital investments undertaken by corporations.&lt;/p&gt;
-&lt;p&gt;Through this framework, we will gain an understanding of financial markets and the process by which companies make their investment decisions.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;course-materials&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Course Materials&lt;/h1&gt;
-&lt;div id=&#34;text&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Text&lt;/h2&gt;
-&lt;p&gt;Corporate Finance, 4th Edition, Berk, DeMarzo and Strangeland&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;other-recommended-material&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Other recommended material&lt;/h2&gt;
-&lt;p&gt;Subscription to the Wall Street Journal and/or the Financial Times. Some other excellent financial magazines such as The Economist and Business Week also provide good applications of what you will learn in the class.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;course-website&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Course Website&lt;/h2&gt;
-&lt;p&gt;The course website provides valuable information related to the course. On the website you will find:
-- Smith Living Cases
-- Lecture slides
-- Additional material from academic journals, financial press, as may arise in class&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;evaluation&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Evaluation&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Assignments/Case Study Reports: 30%&lt;/li&gt;
-&lt;li&gt;Presentation/Class Participation: 30%&lt;/li&gt;
-&lt;li&gt;Final Exam: 40%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;class-structure&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Class Structure&lt;/h1&gt;
-&lt;p&gt;Each class will consist of an introduction and overview of the topic, followed by a breakout activity which will consist of the students forming groups to answer a question or develop a discussion of an application of the topic. Following the breakout, the class will proceed into the specific applications and technical applications of the topic that was introduced.&lt;/p&gt;
-&lt;p&gt;Each class will have an assignment or case associated with it. We will either have a case OR an assignment on a given class. This case will be presented by the students on case days. Even if you are not presenting, you are expected to have read these prior and to have (hopefully) thought about them and taken some notes. Each case has questions associated with them that you will be required to answer as part of your evaluation.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;group-policy&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Group Policy&lt;/h1&gt;
-&lt;p&gt;You are required to deal with group dynamics within the group. You are required to remain with your group throughout the course. Working in a team is an important part of life. Good groups are based on skill-sets; no group needs 5 project managers or 5 programmers. Find people’s complementary skills to help create a good dynamic that maximizes productivity for each project. The idea is to excel and not to simply &lt;strong&gt;fit in&lt;/strong&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;assignments&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Assignments&lt;/h1&gt;
-&lt;p&gt;Assignments will be given after each class and are due by the commencement of the following class. The assignments are designed to reinforce the procedures we have covered in the lecture and to get you to consider financial decision making in a real world setting. These assignments are individual pieces of evaluation, as a result, each student will need to submit their own work.&lt;/p&gt;
-&lt;p&gt;Assignment due dates: August 11th, August 21st, 11:59pm.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;cases&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Cases&lt;/h1&gt;
-&lt;p&gt;Cases will be given at 2 intervals this semester. Evaluation of cases consists of answering the questions associated and applying skills that you have learned in the course to the case questions. In addition, students will be required to present these cases to the rest of the class. These presentations should focus on resolving the issue described in the case using financial analysis and financially backed reasoning. These cases and question submissions are group work. Details on how groups function are found in the section “Group Policy”. Case questions are due 2 Classes after the presentations are conducted.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;e-mail-policy&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;E-mail Policy&lt;/h1&gt;
-&lt;p&gt;I am usually quick to respond to e-mails, however I am not always available for all types of questions. Essentially, if your question involves the structure of the course, curiosities about specific deadlines or marking should be handled by the TAs. You can reach them at their e-mails listed below.
-A good reason to e-mail me would be when you have read the material associated with a lecture, attended the lecture, asked classmates, reviewed the material, and you still do not understand something about the course. If this is the case, I would be happy to help you work through any issues.
-Teaching Assistant Emails: &lt;a href=&#34;mailto:eric.dong@queensu.ca&#34;&gt;Eric Dong&lt;/a&gt; &amp;amp; &lt;a href=&#34;mailto:neal.willcott@queensu.ca&#34;&gt;Neal Willcott&lt;/a&gt; – they’re good guys.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;academic-integrity&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Academic Integrity&lt;/h1&gt;
-&lt;p&gt;Queen’s students, faculty, administrators, and staff all have responsibilities for supporting and upholding the fundamental values of academic integrity. Academic integrity is constituted by the five core fundamental values of honesty, trust, fairness, respect, and responsibility, and by the quality of courage (see www.academicintegrity.org). These values and qualities are central to the building, nurturing, and sustaining of an academic community in which all members of the community will thrive. Adherence to the values expressed through academic integrity forms a foundation for the “freedom of inquiry and exchange of ideas” essential to the intellectual life of the University.
-Students are responsible for familiarizing themselves with, and adhering to, the regulations concerning academic integrity. General information on academic integrity is available at Academic Integrity @ Queen’s University; an overview of Smith’s own policies and procedures are also important to review. You may also find these frequently asked questions on academic integrity helpful for your understanding of the concept and the regulations surrounding it. Departures from academic integrity include, but are not limited to, plagiarism, use of unauthorized materials, facilitation, forgery, and falsification. Actions which contravene the academic integrity regulations carry sanctions that can range from a warning, to loss of grades on an assignment, to failure of a course, to requirement to withdraw from the university.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;class-schedule&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Class Schedule&lt;/h1&gt;
-&lt;div id=&#34;class-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Class 1&lt;/h2&gt;
-&lt;div id=&#34;overview&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Overview&lt;/h3&gt;
-&lt;p&gt;Topics covered: Introduction to corporate finance and capital markets &lt;br&gt;
-&lt;em&gt;Read: Berk, DeMarzo and Strangeland - Chapter 1&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;time-value-of-money&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Time Value of Money&lt;/h3&gt;
-&lt;p&gt;Topics covered: Application of Time Value of Money to growth rates, compound interest rates, annuity and growing annuity, perpetuity and growing perpetuity. &lt;br&gt;
-&lt;em&gt;Read: Berk, DeMarzo and Strangeland - Chapter 4&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Assignment 1&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;class-2&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Class 2&lt;/h2&gt;
-&lt;div id=&#34;capital-budgeting&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Capital Budgeting&lt;/h3&gt;
-&lt;p&gt;Topics covered: Capital budgeting as a procedure for evaluating the acquisition of long-term assets. Capital Budgeting and Taxation. Discussion on why firms make decisions on types of capital acquisition. &lt;br&gt;
-&lt;em&gt;Read: Berk, DeMarzo and Strangeland - Chapter 8,9&lt;/em&gt; &lt;br&gt;
-&lt;em&gt;Case: TBD&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;class-3&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Class 3&lt;/h2&gt;
-&lt;div id=&#34;financial-forecasting&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Financial Forecasting&lt;/h3&gt;
-&lt;p&gt;Topics covered: Taking past financial data along with management’s expectations and objectives and translating them to the future financial position of the company. Financial statement analysis, growth policy, external funds requirements.&lt;br&gt;
-&lt;em&gt;Read: Berk, DeMarzo and Strangeland - Chapter 22&lt;/em&gt; &lt;br&gt;
-&lt;em&gt;Case: TBD&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;class-4&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Class 4&lt;/h2&gt;
-&lt;div id=&#34;firm-and-securities-valuation&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Firm and Securities Valuation&lt;/h3&gt;
-&lt;p&gt;Topics covered: The fundamentals of security pricing and the impact on a company’s valuation from a market perspective. DCF( DDM, FCFE, FCFF). &lt;br&gt;
-&lt;em&gt;Read: Berk, DeMarzo and Strangeland- Chapter 6, 7 &lt;/em&gt;&lt;br&gt;
-&lt;em&gt;Case: TBD&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;class-5&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Class 5&lt;/h2&gt;
-&lt;div id=&#34;risk-and-return-of-the-capital-market&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Risk and Return of the Capital Market&lt;/h3&gt;
-&lt;p&gt;Topics covered: Impact of risk on value. Portfolio diversification and risk. CAPM (Capital Market Line, Security Market Line), performance valuation (Sharpe Ratio), solving for efficient sets.&lt;br&gt;
-&lt;em&gt;Read: Berk, DeMarzo and Strangeland- Chapter 10, 11, 22&lt;/em&gt; &lt;br&gt;
-&lt;em&gt;Case: TBD&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;class-6&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Class 6&lt;/h2&gt;
-&lt;div id=&#34;cost-of-capital&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Cost of Capital&lt;/h3&gt;
-&lt;p&gt;Topics covered: Calculations of Weighted-Average cost of capital (WACC), discussion of what impacts cost of capital and how this impacts firm decisions. &lt;br&gt;
-&lt;em&gt;Read: Berk, DeMarzo and Strangeland- Chapter 14 &lt;/em&gt;&lt;br&gt;
-&lt;em&gt;Assignment 2&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ta-sessions&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;TA Sessions&lt;/h2&gt;
-&lt;p&gt;There will be three TA sessions (dates TBD). These sessions will consist of the presentation of topics covered by the scope of the course. These session are built in conjunction with the students, so the TAs may ask you for topics to address in these time slots to better prepare you for exams or to review topics that you would like to dedicate more time.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;disabilities-policy&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Disabilities Policy&lt;/h1&gt;
-&lt;p&gt;Students with physical and learning disabilities must contact the instructor as soon as possible in order for accommodations to be made. Queen’s University is committed to achieving full accessibility for persons with disabilities. Part of this commitment includes arranging academic accommodations for students with disabilities to ensure they have an equitable opportunity to participate in all of their academic activities. If you are a student with a disability and think you may need accommodations, you are strongly encouraged to contact Queen’s Student Accessibility Services (QSAS) and register as early as possible. For more information, including important deadlines, please visit the &lt;a href=&#34;https://www.queensu.ca/studentwellness/accessibility-services/&#34;&gt;QSAS website&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</description>
     </item>
     
   </channel>

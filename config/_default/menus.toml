@@ -10,13 +10,13 @@
   weight = 20
   
 [[main]]
-  name = "Syllabus"
-  url = "Syllabus/"
+  name = "Course Info"
+  url = "Course/"
   weight = 30
   
 [[main]]
-  name = "Course Content"
-  url = "Course/"
+  name = "Slides"
+  url = "Slides/"
   weight = 40
   
 [[main]]

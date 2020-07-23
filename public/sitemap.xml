@@ -3,7 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/course/</loc>
+    <loc>/slides/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -19,6 +20,11 @@
   <url>
     <loc>/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/01-content/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -201,19 +207,15 @@
   </url>
   
   <url>
+    <loc>/course/</loc>
+  </url>
+  
+  <url>
     <loc>/instructor/</loc>
   </url>
   
   <url>
-    <loc>/course/01-content/</loc>
-  </url>
-  
-  <url>
     <loc>/author/neal-willcott/</loc>
-  </url>
-  
-  <url>
-    <loc>/syllabus/</loc>
   </url>
   
   <url>
