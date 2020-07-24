@@ -1,0 +1,44 @@
+---
+title: "MBAS 821: Topic 2"
+subtitle: "Capital Budgeting"
+author: "Ryan Riordan"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "atacss.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+```{css, echo = FALSE}
+.remark-slide-content {
+  font-size: 18px;
+  padding: 20px 80px 20px 80px;
+}
+.remark-code, .remark-inline-code {
+  background: #f0f0f0;
+}
+.remark-code {
+  font-size: 20px;
+}
+.huge .remark-code { /*Change made here*/
+  font-size: 200% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 75% !important;
+}
+```
+
+# How do companies make investment decisions?
+
+```{r, echo = F, out.width = "70%", fig.align="center"}
+knitr::include_graphics("01-tesla.png")
+```
+
+.small[https://www.statesman.com/business/20200722/tesla-picks-austin-for-1-billion-auto-factory]
+
+---
+
+#
