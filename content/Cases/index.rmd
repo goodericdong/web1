@@ -1,0 +1,13 @@
+---
+title: Case study
+output:
+  blogdown::html_page:
+    toc: true
+    fig_caption: false
+---
+
+1. Capital Budgeting: Bombardier
+
+2. Going Public: Snapchat Inc.
+
+3. HOOPP What's Next?

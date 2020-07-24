@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>/slides/02-content/</loc>
+    <lastmod>2020-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/slides/01-content/</loc>
     <lastmod>2020-07-22T00:00:00+00:00</lastmod>
   </url>
@@ -204,6 +209,14 @@
   
   <url>
     <loc>/author/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/</loc>
+  </url>
+  
+  <url>
+    <loc>/cases/</loc>
   </url>
   
   <url>

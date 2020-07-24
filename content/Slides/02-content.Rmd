@@ -1,0 +1,20 @@
+---
+title: "Topic 2: Investment Decisions"
+linktitle: "2. Investment Decisions"
+date: "`r Sys.Date()`"
+menu:
+  content:
+    parent: Course Slides
+    weight: 20
+type: docs
+bibliography: "../../static/bib/references.bib"
+csl: "../../static/bib/chicago-fullnote-bibliography-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+<a href="/slides/02-slide/02-slide.html" target="_blank"><span class="btn btn-primary btn-lg"><i class="fas fa-external-link-alt"></i> View all slides in new window</span> </a>
+
+
+<a href="/slides/02-slide/02-slide.pdf" target="_blank"><span class="btn btn-primary btn-lg"><i class="far fa-file-pdf"></i> Download PDF of all slides</span></a>

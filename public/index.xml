@@ -35,6 +35,19 @@
     </item>
     
     <item>
+      <title>Topic 2: Investment Decisions</title>
+      <link>/slides/02-content/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/slides/02-content/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;a href=&#34;/slides/02-slide/02-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/slides/02-slide/02-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Topic 1: Time Value of Money</title>
       <link>/slides/01-content/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
@@ -634,6 +647,34 @@ Figure 1: A fancy pie chart.
 &lt;/div&gt;
 &lt;p&gt;Supplementary notes can be added here, including 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignments</title>
+      <link>/assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/assignments/</guid>
+      <description>
+
+
+&lt;p&gt;Under construction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Case study</title>
+      <link>/cases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/cases/</guid>
+      <description>
+
+
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Capital Budgeting: Bombardier&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Going Public: Snapchat Inc.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;HOOPP What’s Next?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
