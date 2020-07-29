@@ -1,0 +1,141 @@
+---
+title: "Case Presentation and Report Guidelines"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "atacss.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+```{css, echo = FALSE}
+.remark-slide-content {
+  font-size: 18px;
+  padding: 20px 80px 20px 80px;
+}
+.remark-code, .remark-inline-code {
+  background: #f0f0f0;
+}
+.remark-code {
+  font-size: 20px;
+}
+.huge .remark-code { /*Change made here*/
+  font-size: 200% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 75% !important;
+}
+```
+
+# Case Report
+
+.large[
+- The case report is due on the day of presentation, before class. It is usually 1 week after the class of case discussion. The tentative due dates are on the course portal. (August 12th, 19th, 24th respectively)
+
+- Maximum of 10 pages double spaced. Times New Roman Font with size 11 for contents.
+
+- Cover page and appendices are not counted towards the page limit.
+
+- Each team is only required to submit one case report (pdf or doc file) through the course portal.
+]
+---
+
+# Breakdown of Case Report
+
+.large[
+- Analysis
+
+- Recommendation
+
+- Implementation
+
+- Conclusion
+
+- Answer to Case Questions
+]
+
+---
+
+# Analysis
+
+.large[
+- Case overview
+  - Brief description of the situation
+
+- Identification of Issue(s)
+
+- Assumptions
+  - Layout all assumptions you made during the case and justify them.
+]
+
+---
+
+# Recommendations
+
+.large[
+- List out alternatives and discuss each of them about their pros and cons.
+
+- Out of the alternatives, select one to be your recommendation with justification based on your analysis.
+
+- The final recommendation needs to be consistent with your analysis.
+]
+
+---
+
+# Implmentation
+
+.large[
+- For the recommendation you suggested, are there any feasibility challanges?
+
+- If yes, how will you deal with these challenges?
+]
+
+---
+
+# Conclusion
+
+.large[
+- Key takeaways of the case presentation.
+]
+
+---
+
+# Answer to Case Questions
+
+.large[
+- Please refrain from writing very long answers.
+]
+
+---
+
+# Case Presentations
+
+.large[
+- You should present your case report with presentation slides or other form of presentation material.
+
+- Try to restrain your presentation to be within 30 minutes.
+
+  - The first case (Bombardier) is significantly shorter than the later two cases. If you find that you can finish presenting your case in 20 minutes (or even shorter time), do it and save time for everybody.
+  
+- The presentation material should be mostly based on the case report you submitted, but in a more interactive/presentable fashion.
+]
+
+---
+
+# Marking Rubrics
+
+## Case Report
+
+- Contents 60%
+- Structure and Clarity 20%
+- Answer to Questions 20%
+
+Late reports without permission will get -5% per day, rounding up.
+
+## Case Presentation
+
+- Contents 60%
+- Presentation Quality 20%
+- Q & A 20%

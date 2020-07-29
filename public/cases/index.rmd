@@ -6,6 +6,8 @@ output:
     fig_caption: false
 ---
 
+<a href="/files/case-guideline/case-guideline.pdf" target="_blank">Case Report and Presentation</a>
+
 1. Capital Budgeting: Bombardier
 
 2. Going Public: Snapchat Inc.
