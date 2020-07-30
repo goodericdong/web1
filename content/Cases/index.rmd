@@ -6,7 +6,7 @@ output:
     fig_caption: false
 ---
 
-<a href="/files/case-guideline/case-guideline.pdf" target="_blank">Case Report and Presentation</a>
+<a href="/files/case-guideline/case-guideline.pdf" target="_blank">Case Report and Presentation Guideline</a>
 
 1. Capital Budgeting: Bombardier
 
