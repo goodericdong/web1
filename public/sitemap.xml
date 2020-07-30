@@ -4,7 +4,7 @@
   
   <url>
     <loc>/slides/</loc>
-    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,13 +23,18 @@
   </url>
   
   <url>
-    <loc>/slides/02-content/</loc>
-    <lastmod>2020-07-24T00:00:00+00:00</lastmod>
+    <loc>/slides/01-content/</loc>
+    <lastmod>2020-07-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/01-content/</loc>
-    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+    <loc>/slides/02-content/</loc>
+    <lastmod>2020-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/02-content.knit/</loc>
+    <lastmod>2020-07-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>

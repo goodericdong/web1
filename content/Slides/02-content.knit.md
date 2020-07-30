@@ -1,7 +1,7 @@
 ---
 title: "Topic 2: Investment Decisions"
 linktitle: "2. Investment Decisions"
-date: "`r Sys.Date()`"
+date: "2020-07-30"
 menu:
   content:
     parent: Course Slides

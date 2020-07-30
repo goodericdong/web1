@@ -14,7 +14,7 @@ output:
     toc: true
 ---
 
-<a href="/slides/01-slide/01-slide.html" target="_blank"><span class="btn btn-primary btn-lg"><i class="fas fa-external-link-alt"></i> View all slides in new window</span> </a>
+<a href="/slides/01-slide/01-slide.html" target="_blank"><span class="btn btn-primary btn-lg"><i class="fas fa-external-link-alt"></i>Open slides (html)</span> </a>
 
 
-<a href="/slides/01-slide/01-slide.pdf" target="_blank"><span class="btn btn-primary btn-lg"><i class="far fa-file-pdf"></i> Download PDF of all slides</span></a>
+<a href="/slides/01-slide/01-slide.pdf" target="_blank"><span class="btn btn-primary btn-lg"><i class="far fa-file-pdf"></i>Download slides (PDF)</span></a>
