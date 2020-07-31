@@ -500,6 +500,7 @@ knitr::include_graphics("15-cfo.png")
 
 # Formula Sheet
 
+.large[
 $$
 NPV = \sum_{t=1}^T\frac{CF_t}{(1+r)^t}-C_0
 $$
@@ -507,6 +508,8 @@ $$
 $$
 \sum_{t=1}^T\frac{CF_t}{(1+IRR)^t} -C_0 = 0
 $$
+
 $$
 PI = \frac{\sum_{t=1}^T \frac{CF_t}{(1+r)^t}}{C_0}
 $$
+]

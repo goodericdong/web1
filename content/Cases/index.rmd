@@ -8,8 +8,12 @@ output:
 
 <a href="/files/case-guideline/case-guideline.pdf" target="_blank">Case Report and Presentation Guideline</a>
 
-1. Capital Budgeting: Bombardier
+1. <a href = "https://web.prod.business.queensu.ca/LivingCase/Nodes/Usage/311109/ca003659-69a3-426c-8e86-eb8e79974f00" target = "_blank">**Capital Budgeting: Bombardier**</a>
 
-2. Going Public: Snapchat Inc.
+  - Case Overview <a href="/slides/cases/01-slide/01-slide.html" target="_blank">html</a> <a href="/slides/cases/01-slide/01-slide.html" target="_blank">PDF</a>
 
-3. HOOPP What's Next?
+<br><br>
+2. <a href = "https://web.prod.business.queensu.ca/LivingCase/Nodes/Usage/311109/f4b67e4a-12a3-4661-99df-28763841a8f4" target = "_blank">**Going Public: Snapchat Inc.**</a>
+
+<br><br>
+3. <a href = "https://web.prod.business.queensu.ca/LivingCase/Nodes/Usage/311109/65a3ce17-70fb-4909-90e2-8ff23bf8c0f3" target = "_blank">**HOOPP What's Next?**</a>

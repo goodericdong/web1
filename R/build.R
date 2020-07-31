@@ -2,7 +2,7 @@
 blogdown::build_dir("static/")
 
 
-# Convert all slide HTML files to PDF
+# Convert all slide RMD files to HTML and PDF
 slide_names_with_ext <- list.files(here::here("static/"), pattern = "*.Rmd", recursive = T)
 
 slide_names_sans_ext <- tools::file_path_sans_ext(slide_names_with_ext)
@@ -12,3 +12,4 @@ pdfize <- function(slide_name) {
 }
 
 sapply(slide_names_sans_ext, pdfize)
+

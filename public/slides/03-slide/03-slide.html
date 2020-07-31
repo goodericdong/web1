@@ -35,451 +35,9 @@ class: center, middle, inverse, title-slide
   font-size: 75% !important;
 }
 &lt;/style&gt;
-
-# How do companies make investment decisions?
-
-&lt;img src="01-tesla.png" width="65%" style="display: block; margin: auto;" /&gt;
-
-.small[https://www.statesman.com/business/20200722/tesla-picks-austin-for-1-billion-auto-factory]
-
----
-
-# Capital Budgeting Overview
-
-.large[
-- Capital Budgeting Evaluation
-
-  - Net Present Value (NPV)
-  
-  - Internal Rate of Return (IRR)
-  
-      - Incremental IRR
-  
-  - Payback Period (PP)
-  
-  - Profitability Index (PI)
-  
-- Strengths and Weaknesses of these measures
-]
----
-
-# Brief Steps of Capital Budgeting
-
-.large[
-1. Forecast **project cash flows**.
-
-2. Estimate cost of capital *r*, or sometimes refered as **WACC**(Weighted Average Cost of Capital)
-  
-  - We will focus more on this in topic 6: Cost of Capital
-
-3. Evaluate projects using one or more methods
-
-  - NPV, IRR, PP, PI
-  
-Accept or reject project(s) based on one or more of the evaluation criteria.
-]
-
----
-
-# Net Present Value (NPV)
-
-.large[
-**NPV**: Present value of all future cash inflows discounted at cost of capital *r* minus the initial investment
-]
-
-.pull-left[
-$$
-NPV(\text{project}) = \sum_{t=1}^T\frac{CF_t}{(1+r)^t}-C_0
-$$
-]
-.pull-right[
-`\(C_0\)`: Initial investment for the project
-`\(CF_t\)`: Cash flow of project at time *t*
-]
-
-&lt;br&gt;&lt;br&gt;
-
-- .large[NPV investment rules:]
-
-  - `\(NPV &gt; 0 \rightarrow\)` Accept project
-  
-  - `\(NPV &lt; 0 \rightarrow\)` Reject project
-  
-  - If projects are mutually exclusive (i.e. Picking one project out of several projects), choose the project with the highest NPV.
-
----
-
-# NPV: an Example
-
-.large[
-Bob's Shoes is evaluating two possible expansion projects, to New York and/or to Chicago. Cost of capital is 10%. Below are the expected cash flows of the project:
-]
-
-.center[![](02-npv.png)]
-$$
-NPV(\text{New York}) = \frac{500}{1.1}+\frac{400}{1.1^2}+\frac{300}{1.1^3}+\frac{100}{1.1^4}-1,000 = \$ 78.82
-$$
-$$
-NPV(\text{Chicago}) = \frac{100}{1.1}+\frac{400}{1.1^2}+\frac{400}{1.1^3}+\frac{600}{1.1^4}-1000 = \$ 131.82
-$$
-
-.large[What would you recommend?]
----
-
-# The Decision
-
-.large[
-- If projects are *independent* and the firm has sufficient capital to finance both projects, **accept all positive NPV projects**!
-
-  - Therefore, they should expand to both Chicago and New York.
-  
-- If the porjects are mutually exclusive (can only accept one or another), **choose the investment with the highest NPV**!
-
-  - Therefore, they should expand to Chicago. ($131.82 &gt; $78.82)
-  
-*Note*: the NPV of a project typically declines as the discount rate/cost of capital rises. (Any exceptions?)
-]
----
-
-# What is NPV and is it any good?
-
-.large[
-- NPV represents the expected change in firm value from undertaking the project.
-
-  - `\(NPV &gt; 0 \rightarrow \text{Increases firm value}\)`
-  
-  - `\(NPV &lt; 0 \rightarrow \text{Destroys firm value}\)`
- 
-- Strengths of NPV
-
-  - NPV takes into account of all future cash flows related to the project.
-  
-  - NPV discounts cash flows correctly.
-  
-  - NPV tells you exactly how much value is added to the firm.
-  ]
-  
----
-
-# Internal Rate of Return (IRR)
-
-.large[
-**IRR** is the *hypothetical* discount rate that makes the NPV of a project equal to 0.
-]
-$$
-\sum_{t=1}^T\frac{CF_t}{(1+IRR)^t} -C_0 = 0
-$$
-Note: For prjects with multiperiod cash flows, it is difficult to calculate the IRR algebrically. You can use the *graphing* method, a *financial calculator*, or an *[online IRR calculator](https://www.calculatestuff.com/financial/irr-calculator)* to find the IRR.
-
-.large[IRR investment rules:]
-  
-  - `\(IRR &gt; r \rightarrow \text{Accept project}\)`
-  
-  - `\(IRR &lt; r \rightarrow \text{Reject project}\)`
-  
-  - IRR rule will often, *but not always*, coincide with the NPV rule.
-
----
-
-# IRR: an Example
-
-.center[![](02-npv.png)]
-
-**New York:**
-$$
--1000 + \frac{500}{1+r} + \frac{400}{(1+r)^2} +\frac{300}{(1+r)^3}+\frac{100}{(1+r)^4} = 0 \quad \quad IRR = 14.49\%
-$$
-
-**Chicago:**
-$$
--1000 + \frac{100}{1+r} + \frac{400}{(1+r)^2} +\frac{400}{(1+r)^3}+\frac{600}{(1+r)^4} = 0 \quad \quad IRR = 14.82\%
-$$
-
-Therefore, pick Chicago (IRR = 14.82%) if the projects are mutually exclusive. Accept both if the projects are independent (Both IRRs of New York and Chicago projects are greater than 10%).
----
-
-# IRR: Complications
-
-- .large[Does the NPV rule always give the same answer as the IRR rule?]
-
-- .large[Problems with the IRR approach:]
-
-  - .large[Issues affecting ***both*** independent and mutually exclusive projects:]
-      
-      - "Investing" vs "Financing"
-      
-      - Multiple IRR solutions
-      
-  - .large[Issues affecting ***only*** mutually exclusive projects:]
-  
-      - The scale problem
-      
-      - The timing problem
-      
----
-class: left, middle
-
-# Investing vs Financing: an Example
-
-.large[
-Prof. Riordan was recently asked to write a textbook for intro to finance.
-
-He took an up front payment of $1,000,000 and was expected to deliver a completed text in 3 years. He figtures that based on his consulting rates it will cost him $500,000 a year to complete the book. If current interest rates are 10%, based on the IRR criteria, what should he have done? What about the NPV method?
-]
----
-
-# IRR: the graphing method
-
-.large[
-- Step 1: Plug in a range of *r* and calculate the respective NPVs
-
-- Step 2: Connect the dots
-
-Note: the x-intercept of the graph shows the *r* when NPV = 0, i.e. the IRR.
-]
-
-&lt;img src="03-IRRtemplate.png" width="65%" style="display: block; margin: auto;" /&gt;
----
-
-# Prof. Riordan's Book Project
-
-&lt;img src="04-bookIRR.png" width="80%" style="display: block; margin: auto;" /&gt;
-
-- Prof. Riordan's deal can be seen as a **financing** opportunity:
-  - He *receives* cash at time 0 and *pays out* over three years
-  - Cash inflows precedes cash outflows - Different from our previous examples.
-  
-- In the case of a **financing** oppotunity , the IRR decision rule "reverses"
-  - if IRR &lt; discount rate `\(\rightarrow\)` Accept project
-  - If IRR &gt; discount rate `\(\rightarrow\)` Reject project
-  
----
-
-# IRR for **financing** type projects
-
-.large[
-- **Financing** type projects are those for which you get cash upfront which is positive followed by negative cash flows in the future.
-
-- The decision rule for financing type projects is the opposite to that for investing/normal type projects:
-
-  - Accept if IRR &lt; required rate
-  
-  - Reject if IRR &gt; required rate
-  
-- NPV decision rules are still the same.
-]
-
----
-class: left, middle
-# Multiple IRRs
-
-Suppose Prof. Riordan's deal also includes royalty cash flows which are expected to be $30,000 per year for the next 30 years after the book is completed. 
-
-Now what should his decision be using the IRR rule?
-
-What does the timeline look like?
----
-
-# Prof. Riordan's Book Project &lt;br&gt; (with royalties)
-
-&lt;img src="05-multipleIRR.png" width="60%" style="display: block; margin: auto;" /&gt;
-
-- If cash flows "flip-flop", may obtain non-unique IRR values:
-  - NPV &gt; 0 if discount rate is *low* or *high*
-  - NPV &lt; 0 for *moderate* discount rates
-  
-- Why is this happening? Is this an investing or financing project? What should the IRR decision rule be?
-- A simpler solution would be: **Just use the NPV decision rule.**
----
-
-# The Scale Problem
-
-Suppose we can expand to either Houston or San Antonio:
-
-.center[![](06-scaleproblem.png)]
-
-.large[
-We have a conflict. The IRR rule chooses the Houston project but San Antonio has a much higher NPV. Why is this happening?
-]
-
-Solutions to the **scale problem**:
-
-- Just use NPV rule
-
-- Incremental IRR
----
-
-# Incremental IRR
-
-.large[
-Do the difference between the two projects and calculate the IRR, then compare that IRR to the cost of capital.
-]
-
-&lt;img src="07-IncrementalIRR.png" width="60%" style="display: block; margin: auto;" /&gt;
-
-.large[
-What should be the decision based on incremental IRR?
-]
-
----
-
-# The Timing Problem
-
-&lt;img src="08-timingproblem.png" width="90%" style="display: block; margin: auto;" /&gt;
-
-.large[
-- The preferred project in this case depends on the discount rate, not the IRR.
-
-- Both projects have a large cash flow but time value of money will affect the final decision.
-]
----
-
-# The Timing Problem
-
-.pull-left[
-- The preferred project in this case depends on the discount rate, not the IRR.
-
-- There is a point at which both projects have a negative NPV
-
-- At lower discount rates, Project B is preferred to Project A
-
-- At higher discount rates, Project A is preferred to Project B  
-
-- Where is the *crossover rate*?
-]
-.pull-right[
-&lt;img src="09-timingproblem2.png" width="90%" style="display: block; margin: auto;" /&gt;
-]
-
----
-
-# The Timing Problem: Incremental IRR
-
-.large[
-- To find the *crossover rate*, use incremental cash flows (blue row)
-
-- Compute the IRR after taking the difference between Project B and Project A cash flows
-
-- The crossover rate (IRR of B-A) ≈ 10.55%
-]
-
-&lt;img src="10-crossoverrate.png" width="50%" style="display: block; margin: auto;" /&gt;
-
----
-
-# Calculating the Crossover Rate
-
-.large[
-- Should you compute the incremental IRR for (A-B) or (B-A)?
-
-- The suggestion is to *perform the substraction so that the first nonzero cash flow is negative* (i.e. In this case, B-A)
-
-- This makes the incremental project an "*investing* project" so that the ultimate decision is more intuitive (Choose B over A if IRR &gt; *r*) 
-]
-.pull-left[
-&lt;img src="11-crossoverrate2.png" width="120%" style="display: block; margin: auto;" /&gt;
-]
-.pull-right[
-&lt;img src="12-crossoverrate3.png" width="100%" style="display: block; margin: auto;" /&gt;
-]
----
-
-# Timing Problem: Graphical Solution
-
-&lt;img src="13-timingproblem3.png" width="100%" style="display: block; margin: auto;" /&gt;
----
-
-# Payback Period (PP)
-
-.large[
-**PP**: Amount of time required for an investment to generate sufficient cash flows to recover its initial cost.
-
-Payback Period decision rule:
-
-- A project is accepted if its packback period is less than a specified cutoff period (usually 2-3 years).
-]
-
----
-
-# Payback Period: an Example
-
-.large[
-Back to the New York and Chicago example. Using the payback period as decision criteria. Assume a payback period cutoff of 3 years.
-]
-
-&lt;img src="14-pp.png" width="90%" style="display: block; margin: auto;" /&gt;
-
-.large[
-We would accept New York and reject Chicago.
-]
----
-
-# Payback Period: Pros and Cons
-
-.large[Pros:]
-
-- Very simple to calculate and easy to understand
-
-  - Useful for small day-to-day decisions
-  
-- May be useful for firms with limited access to capital
-
-  - Focus on *quick cash recovery*
-  
-.large[Cons:]
-
-- Timing of cash flows is ignored (recall that using the NPV method, the Chicago expansion was worth $131.82 and the New York expansion was only worth $78.82)
-
-- Cash flows after the payback period are ignored
-
-- Arbitrary benchmark: 2 years? 3 years? more/less?
----
-
-# Profitability Index (PI)
-
-.large[
-**PI**: Amount of dollars (in present value) generated per dollar investment.
-
-$$
-PI = \frac{\sum_{t=1}^T \frac{CF_t}{(1+r)^t}}{C_0}
-$$
-]
-
-.large[
-Profitability Index investment rules:
- 
-  - PI &gt; 1 → Accept project
-  
-  - PI &lt; 1 → Reject project
-]
----
-
-# Profitability Index: Pros and Cons
-
-.large[
-Pros: Capital Rationing
-
-  - Since firms may not have sufficient capital to fund all positive NPV projects.
-  
-  - By ranking projects using PI and choosing the highest PI project(s), firms get the best "bang for buck" project.
-  
-Cons:
-
-  - Does not account for the scale of the project.
-  
-  - Projects with lower PI may have higher NPV due to larger cash flow sizes but requires larger amount of initial investment.
-]
----
-
-# What do CFOs use in practice?
-
-&lt;img src="15-cfo.png" width="100%" style="display: block; margin: auto;" /&gt;
-
----
-
 # How much does an investment cost?
 
-&lt;img src="16-budget.jpg" width="35%" style="display: block; margin: auto;" /&gt;
+&lt;img src="01-budget.jpg" width="35%" style="display: block; margin: auto;" /&gt;
 
 As satirical as the comic is, the guy was doing a great job as a finance advisor, since he was able to figure out the cost of building the IT system. (Without knowing anything about it!)
 ---
@@ -487,36 +45,230 @@ As satirical as the comic is, the guy was doing a great job as a finance advisor
 # Capital Budgeting
 
 .large[
-- Now that we have a handle on how to calculate a project's NPV, we need to be able to estimate the costs of potential projects and the future revenues. 
+In order to calculate the NPV of a project, firm needs to know:
 
-- For an N year project, here is what we do:
+- Initial investment
+  - Cost of machinery
+  - Set up costs
+  - etc.
 
-  1. Estimate initial investment ( `\(C_0\)` )
-  
-  2. Estimate operating cash flows ( `\(CF_t\)` )
-  
-  3. Estimate ending cash flows ( `\(CF_N\)` )
+- Future revenues and expenses
+  - Wage
+  - Rent
+  - Machinery maintenance
+  - etc.
 ]
 ---
 
-# 1. Estimate Initial Investment
+# Free Cash Flow (FCF)
 
-.large[Initial investment may include:]
+.large[
+Free cash flow (**FCF**) is the net cash inflow from a firm's operation less capital expenditures (CAPEX).
+  - FCF takes initial investment, revenue, expenses, etc. i.e. Every cash flow related to a project into account.
 
-- Cost of equipment (e.g. the price you pay for the machinery)
+The NPV equation of an N-year project (based on FCF):
+$$
+NPV = \sum_{t=0}^N\frac{FCF_t}{(1+r)^t}
+$$
+How to calculate **FCF**?
+]
 
-- Related costs
-  - Shipping cost, set-up costs, installation costs etc.
+---
 
-- Changes in Net working capital
-  - Current Assets – Current Liabilities [Note: this is a simplified definition]
-  - Firms need to keep certain amount of cash in their vault to be able to eliminate the liquidity mismatch (e.g. In order to manufacture a good, you purchase raw material. You process it and you sell it but some customers do not pay cash. You may get a cheque which is due a future date.
-  - Hint: you usually get Net Working capital back at the end of project
+# Income Statement
 
-- Opportunity costs
-  - What would you do with that money if you did not purchase this equipment for this project?
+.pull-left[.right[
+`\begin{split}
+&amp;\text{Revenues}\\
+-&amp;\text{Cost of goods sold (COGS)}\\
+-&amp;\text{Other Costs}\\
+\hline &amp;\text{EBITDA}\\
+-&amp;\text{Depreciation (Dep)}\\
+\hline &amp;\text{Earnings before Interests and Taxes (EBIT)}\\
+-&amp;\text{Interest Expense}\\
+\hline &amp;\text{Earnings before Taxes (EBT)}\\
+-&amp;\text{Taxes}\\
+\hline &amp;\text{Net Income (NI)}
+\end{split}`
+]]
+.pull-right[.left[
+`\begin{split}
+&amp;(1)\\
+&amp;(2)\\
+&amp;(3)\\
+&amp;(4) = (1)-(2)-(3)\\
+&amp;(5)\\
+&amp;(6) = (4)-(5)\\
+&amp;(7)\\
+&amp;(8) = (6)-(7)\\
+&amp;(9)\\
+&amp;(10) = (8)-(9)
+\end{split}`
+]]
 
-**Note**: Do not include sunk costs already spent and that cannot be recovered
+&lt;br&gt;&lt;br&gt;
+
+EBITDA: Earnings before Interest, Taxes, Depreciation and Amortization.
+---
+
+# Problem 1: Interest Expenses
+
+.large[
+Since we are interested in the **FCF**, which is the cash flow generated by the project to both equity and debt holders. We should exclude the interest expenses.
+
+Instead of net income (**NI**), we calculate the *unlevered net income*, which is the net income assuming there were no debt.
+]
+$$
+\text{Unlevered NI} = EBIT \times (1-T_C)
+$$
+
+Where `\(T_C\)` is the corporate tax rate.
+
+.large[
+Another way of calculating unlevered net income is to add back the interest expense (post-tax) to the net income (NI):
+]
+$$
+\text{Unlevered NI} = NI + \text{Interest Expense}\times (1-T_C)
+$$
+---
+# Problem 2: Depreciation
+
+.large[
+Since depreciation is not a cash expense (i.e. There is no cash transactions as you write-off the depreciation expense), we need to add it to the unlevered net income. This value is the Operating Cash Flow (**OCF**):
+]
+$$
+OCF = \text{Unlevered NI} + Dep
+$$
+.large[
+On the other hand, we can calculate OCF by taxing on the EBITDA (i.e. assuming no debt and no depreciation). However, depreciation generates a tax shield which is a cash inflow. Summing these two items together is another way of calculating **OCF**:
+]
+$$
+OCF = EBITDA\times(1-T_C) + Dep\times T_C
+$$
+On the right-hand side of the equation, the first item is the post-tax EBITDA, the second item is the depreciation tax shield.
+---
+
+# Problem 3: Capital Expenditure (CAPEX)
+
+.large[
+**CAPEX**(Sometimes written as CapEX, CAPX) is a cash outflow of purchasing assets. (e.g. land, machinery, etc.) This cash outflow is not recorded in the income statement.
+
+Therefore, when calculating **FCF**, we need to deduct **CAPEX** from the **OCF**.
+]
+
+---
+
+### Problem 4: Change in Net Working Capital ( `\(\Delta\text{NWC}\)` )
+
+.large[
+Net working capital is the assets or capital tied up with a specific project:
+  - e.g. Cash, inventory, receivables and payables.
+]
+  
+`\begin{split}
+NWC &amp;= \text{Current Assets} - \text{Current Liabilities}\\
+&amp;= \text{Cash} + \text{Inventory} + \text{Receivables} - \text{Payables}
+\end{split}`
+
+.large[
+The change in net working capital is a cash item that is not recorded in the income statement, therefore we need to adjust for it by subtracting it from the OCF.
+]
+
+.large[
+The change in net working capital ( `\(\Delta\text{NWC}\)` ) is the difference of NWC between year t and t-1:
+]
+
+`\begin{equation}
+\Delta NWC = NWC_{t} - NWC_{t-1}
+\end{equation}`
+
+---
+
+# Finally, a formula for FCF
+
+$$
+FCF = \text{Unlevered NI} + Dep - CAPEX - \Delta NWC
+$$
+
+Wait, there is more:
+
+&lt;br&gt;&lt;br&gt;
+
+$$
+FCF = EBIT \times (1-T_C) + Dep - CAPEX - \Delta NWC
+$$
+&lt;br&gt;&lt;br&gt;
+
+$$
+FCF = EBITDA \times (1-T_C) + Dep \times T_C - CAPEX - \Delta NWC
+$$
+&lt;br&gt;&lt;br&gt;
+
+$$
+FCF = NI + \text{Interest Expenses} \times (1-T_C) + Dep - CAPEX - \Delta NWC
+$$
+&lt;br&gt;&lt;br&gt;
+Use whichever formula that is the most convenient based on the information given.
+---
+
+# Exercise: FCF
+
+.large[Find the FCF of year 2019:]
+
+&lt;img src="02-FCF.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Solution
+
+$$
+NWC_{2018} = 200+250-150+250 =550
+$$
+&lt;br&gt;&lt;br&gt;
+
+$$
+NWC_{2019} = 150 + 300 - 120 + 300 = 630
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+$$
+\Delta NWC = 630 - 550 = 80
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+`\begin{split}
+FCF &amp;= EBITDA \times (1-T_C) + Dep\times T_C - CAPEX - \Delta NWC\\
+&amp;= (\text{Sales - COGS}) \times (1-T_C) + Dep\times T_C - CAPEX - \Delta NWC\\
+&amp;= (5500 - 4700) \times (1-0.4) + 160 \times 0.4 - 250 - 80\\
+&amp;= 214
+\end{split}`
+
+
+---
+
+# Depreciation: Straight-line vs CCA
+
+.large[The depreciation ]
+
+---
+
+# Further Considerations
+
+- .large[Cannibalism]
+  - Introduction of new product that **cannibalizes** revenue of an existing product. (Cash outflow)
+
+- .large[Synergies]
+  - Introduction of new product that **boosts** revenue of an existing product. (Cash inflow)
+  
+- .large[Discount rates]
+  - Cash flows must be discounted at appropriate discount rates when calculating NPV.
+  
+- .large[Sunk costs]
+  - Expenses or costs that have already been spent are sunk costs, do **NOT** consider them as cash outflows!
+  
+---
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

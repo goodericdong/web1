@@ -37,36 +37,39 @@
     <item>
       <title>Topic 1: Time Value of Money</title>
       <link>/slides/01-content/</link>
-      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/slides/01-content/</guid>
       <description>
 
 
-&lt;p&gt;&lt;a href=&#34;/slides/01-slide/01-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;Open slides (html)&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/slides/01-slide/01-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt;Download slides (PDF)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/slides/01-slide/01-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; Open slides (html)&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/slides/01-slide/01-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download slides (PDF)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Topic 2: Investment Decisions</title>
       <link>/slides/02-content/</link>
-      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/slides/02-content/</guid>
       <description>
 
 
-&lt;p&gt;&lt;a href=&#34;/slides/02-slide/02-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;Open slides (html)&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/slides/02-slide/02-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt;Download slides (PDF)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/slides/02-slide/02-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; Open slides (html)&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/slides/02-slide/02-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download slides (PDF)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Topic 2: Investment Decisions</title>
-      <link>/slides/02-content.knit/</link>
-      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/slides/02-content.knit/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;/slides/02-slide/02-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;Open slides (html)&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/slides/02-slide/02-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt;Download slides (PDF)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+      <title>Topic 3: Capital Budgeting</title>
+      <link>/slides/03-content/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/slides/03-content/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;a href=&#34;/slides/03-slide/03-slide.html&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; Open slides (html)&lt;/span&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/slides/03-slide/03-slide.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download slides (PDF)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -682,10 +685,15 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;&lt;a href=&#34;/files/case-guideline/case-guideline.pdf&#34; target=&#34;_blank&#34;&gt;Case Report and Presentation Guideline&lt;/a&gt;&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Capital Budgeting: Bombardier&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Going Public: Snapchat Inc.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;HOOPP What’s Next?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = &#34;https://web.prod.business.queensu.ca/LivingCase/Nodes/Usage/311109/ca003659-69a3-426c-8e86-eb8e79974f00&#34; target = &#34;_blank&#34;&gt;&lt;strong&gt;Capital Budgeting: Bombardier&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Case Overview &lt;a href=&#34;/slides/cases/01-slide/01-slide.html&#34; target=&#34;_blank&#34;&gt;html&lt;/a&gt; &lt;a href=&#34;/slides/cases/01-slide/01-slide.html&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
+2. &lt;a href = &#34;https://web.prod.business.queensu.ca/LivingCase/Nodes/Usage/311109/f4b67e4a-12a3-4661-99df-28763841a8f4&#34; target = &#34;_blank&#34;&gt;&lt;strong&gt;Going Public: Snapchat Inc.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
+3. &lt;a href = &#34;https://web.prod.business.queensu.ca/LivingCase/Nodes/Usage/311109/65a3ce17-70fb-4909-90e2-8ff23bf8c0f3&#34; target = &#34;_blank&#34;&gt;&lt;strong&gt;HOOPP What’s Next?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
