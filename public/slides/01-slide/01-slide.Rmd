@@ -684,11 +684,17 @@ We learned how to:
 
 # What can we do with these numbers?
 
-1. Managers might evaluate two projects
-2. Investors might compare investments
-3. Loan officers decide on a loan
+.large[
+1. Managers might evaluate two projects and decide for none, one, or both
+2. Investors might compare investments (Bank of Montreal or Scotiabank)
+3. Loan officers decide on a loan 
 4. Financial manager may decide to raise equity or borrow money
-5. A retiree might sell her house an invest in an annuity
+5. A retiree might sell her house and invest in an annuity]
+
+--
+
+.large[
+The numbers only serve a purpose if they are useful to decision making!]
 
 ---
 # Formula Sheet
