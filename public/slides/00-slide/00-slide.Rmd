@@ -31,40 +31,72 @@ output:
 }
 ```
 
+# Welcome to Finance Fundamentals
+
+```{r, echo = F, out.width = "70%", fig.align="center"}
+knitr::include_graphics("stock-market-board.jpg")
+```
+
+---
+
 # Course Related Stuff
 
 .large[
-Course website: https://queens-mbas821.netlify.app/
 
-  - Find your course outline, slides, assignments here.
-  
-Grading:
+The course website is here: https://queens-mbas821.netlify.app/. I will post material here often. 
+
+  1. Course outline
+  2. Slides
+  3. Living Case
+  4. Assignments
+  5. ...
 ]
 
-  - 2 Individual assignments (5% each, due on August 11th and 21st at 11:59pm)
+---
+
+# Grading
+
+- Two individual assignments    
+  - 5% each, due on August 11th and 21st at 11:59pm
+
+--
+
+- Three living Case write-ups 
+  - Group work, 10% each, due on August 12th, 19th, 24th before class starts
+
+--
+
+- One Living Case presentation    
+  - Group work, 15%, on the report submission date of your selected case.
+
+--
+
+- 3-hour open book final exam (40%)
+
+--
+
+- Class Participation (5%)
   
-  - 3 Case reports (Group work, 10% each, due on August 12th, 19th, 24th before class starts)
-  
-  - 1 Case presentation (Group work, 15%, on the report submission date of your selected case.)
-  
-  - 1 3-hour open book final exam (40%)
-  
-  - Class Participation (5%)
-???
-Please ask the students to figure out the presentation schedule.
 ---
 
 # What is Finance?
 
-.large[
-- Finance is about the allocation of funds from a source to a project.
+- Finance is about the allocation of funds from demanders and suppliers
+  - Borrowers and lenders
+  - Investors and firms
+  - Investors and innovators
+  - ...
 
-- The financial system's role is to transfer/utilize these funds in the most efficient way possible.
+--
 
-- Finance is largely about decision making from a quantitative lens.
+- The financial system's role is to allocate these funds in the most efficient way possible
+  - From those that seek/prefer risk to those that eschew risk
+  - From this with capital and patience to those without
+  - From this without ideas to those with ideas
 
-  - From two persepectives: investors and firm managers.
-]
+--
+
+- Finance is largely about decision making using a quantitative lens, from multiple perspectives.
 
 ---
 # The Finance Roadmap
@@ -81,15 +113,13 @@ knitr::include_graphics("01-roadmap.png")
 
 - These decisions require the evaluation of costs and benefits.
 
-- Decisions are made for an optimal path.
-
   - Managers must justify to shareholders that these investments are good uses of their money.
-  
-- Other deicisons that must be made by managers are financing decisions and cash management.
+
+
 ]
 ---
 
-# Once decided to invest, <br> the only thing left is...
+# Once the investment decision is made, <br> the only thing left is...
 
 ![](02-money.jpg)
 ---
@@ -97,18 +127,21 @@ knitr::include_graphics("01-roadmap.png")
 # Financing Decisions
 
 .large[
-- Once the investment decision is made, we have to decide how to pay for it:
+- How do we pay for it?:
 
   - Large investments may require the corporation to raise additional cash.
+    - Opportunity costs?
   
   - Do we raise money by issuing shares?
   
   - Or borrow money by issuing debt?
   
-- These decisions determine the capital structure of the project and the firm.]
+  - Or do we use retained earnings?
+  
+- These decisions determine the capital structure (debt and equity mix of a firm).]
 ---
 
-# Cash Management
+# Cash Management (liquidity)
 
 .large[
 - The firm needs to have enough cash on hand to meet its daily obligations.
@@ -117,6 +150,10 @@ knitr::include_graphics("01-roadmap.png")
 
 - The decision here is to prevent firm's operation being hindered due to a lack of cash.
 ]
+
+--
+.large[
+> Discussion Q: Can a profitable firm become bankrupt?]
 
 ---
 
@@ -132,7 +169,7 @@ knitr::include_graphics("01-roadmap.png")
 
 1. If you have a large capital investment where retained earnings or cash on hand cannot cover the cost and you need to raise the money externally, how would you raise this money? Why?
   
-2. What are the pros and cons of this action? Are there assoicated risks? For whom?
+2. What are the pros and cons of this action? Are there associated risks? For whom?
 
 3. How would this impact the financial market? For instance, would your stock value move up or down?
 ]
@@ -145,7 +182,7 @@ knitr::include_graphics("01-roadmap.png")
 
   - Distinguishes people on the job market.
   
-  - Develops a more comprehensive and more efficient business acumen.
+  - Develops business acumen.
   
   - Make informed decisions regarding spending, saving, and investment.
   
