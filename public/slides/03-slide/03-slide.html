@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>MBAS 821: Topic 2</title>
+    <title>MBAS 821: Topic 3</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ryan Riordan" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
@@ -11,7 +11,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# MBAS 821: Topic 2
+# MBAS 821: Topic 3
 ## Capital Budgeting
 ### Ryan Riordan
 
@@ -250,25 +250,378 @@ FCF &amp;= EBITDA \times (1-T_C) + Dep\times T_C - CAPEX - \Delta NWC\\
 
 # Depreciation: Straight-line vs CCA
 
-.large[The depreciation ]
+.large[
+How to determine depreciation? two different methods are available.
+
+- Straight-line method
+  - The depreciation is a constant value every year, usually a fixed percentage of the original CAPEX value.
+  
+- Capital Cost Allowance (CCA)
+  - Used by the Canada Revenue Agency.
+  - Calculated by multiplying the undepreciated capital cost (UCC) and the CCA rate.
+]
+---
+
+# Straight-line Depreciation: Example
+
+.large[
+Smith Industries Ltd. is purchasing a machine for $100,000. It is estimated that the machine has a 5-year life span with a scrap value of $20,000.
+
+1. What is the depreciation every year?
+2. What is the depreciation tax shield every year? (assuming a marginal corporate tax rate of 40%)
+]
 
 ---
+
+# Straight-line Depreciation: Example
+
+.large[
+Smith Industries Ltd. is purchasing a machine for $100,000. It is estimated that the machine has a 5-year life span with a scrap value of $20,000.
+
+1. What is the depreciation every year?
+2. What is the depreciation tax shield every year? (assuming a marginal corporate tax rate of 40%)
+
+Answers:
+
+1. Depreciation every year is (100,000 - 20,000)/5 = $16,000
+2. Depreciation tax shield every year is 16,000 x 40% = $6,400.
+]
+
+---
+
+# Straight-line Depreciation and Asset Sales
+
+.large[
+When an asset is liquidated, the firm pays taxes on captain gain if the selling price is higher than the book value, or receives tax credit if the selling price is lower.
+
+where book value is the purchase price less the accumulated depreciation.
+]
+
+&lt;br&gt;&lt;br&gt;
+
+$$
+\text{Tax paid (or credits received)} = (\text{Sale Price} - \text{Book Value}) \times T_C
+$$
+
+---
+
+# Straight-line Depreciation: Example
+
+.large[
+Smith Industries Ltd. is purchasing a machine for $100,000. It is estimated that the machine has a 5-year life span with a scrap value of $20,000.
+
+The machine was sold at $60,000 after 3 years of use. What is the tax associated with this transaction? Assume the marginal corporate tax rate is 40%.
+
+]
+
+---
+
+# Straight-line Depreciation: Example
+
+.large[
+Smith Industries Ltd. is purchasing a machine for $100,000. It is estimated that the machine has a 5-year life span with a scrap value of $20,000.
+
+The machine was sold at $60,000 after 3 years of use. What is the tax associated with this transaction? Assume the marginal corporate tax rate is 40%.
+]
+
+After 3 years, the book value of the machine is:
+
+$$
+100,000 - 16,000 \times 3 = \$52,000
+$$
+
+Since the selling price was higher than the book value, capital gain tax needs to be paid:
+
+$$
+\text{Capital gain tax paid} = (60,000 - 52,000) \times 40\% = \$3,200
+$$
+
+---
+
+# CCA Depreciation
+
+.large[
+Capital Cost Allowance (**CCA**) is the method of depreciation used by the Canada Revenue Agency, under the Income Tax Act. 
+
+CCA rules:
+]
+1. CCA assigns assets to different asset classes.
+
+2. Different asset classes have different CCA rate.
+
+3. Depreciation each year equals to **UCC**(Undepreciated capital cost) multiplied by the CCA rate.
+
+4. On the first year, the UCC is 50% of the initial CAPEXl.
+
+---
+
+# Common CCA Asset Classes
+
+.center[
+![](03-CCA.png)
+]
+
+---
+
+# CCA: Example
+
+.large[
+Smith Industries Ltd. bought a machine that costs $100,000. This machine has a CCA rate of 10%. Assuming a 40% marginal corporate tax rate, what is the yearly CCA and depreciation tax shields for the next 5 years?
+]
+
+---
+
+# CCA: Example
+
+.large[
+Smith Industries Ltd. bought a machine that costs $100,000. This machine has a CCA rate of 10%. Assuming a 40% marginal corporate tax rate, what is the yearly CCA and depreciation tax shields for the next 4 years?
+
+&lt;br&gt;&lt;br&gt;
+
+CAPEX = $100,000, CCA = 10%, `\(T_C\)` = 40%
+
+]
+
+
+| Year|UCC                        |CCA                    |Tax.Shield            |
+|----:|:--------------------------|:----------------------|:---------------------|
+|    1|50,000 (= 100,000/2)       |5,000 (= 50,000 x 0.1) |2,000 (= 5,000 x 0.4) |
+|    2|95,000 (= 100,000 - 5,000) |9,500 (= 95,000 x 0.1) |3,800 (= 9,500 x 0.4) |
+|    3|85,500 (= 95,000 - 9500)   |8,550 (= 85,500 x 0.1) |3,420 (= 8,550 x 0.4) |
+|    4|76,950 (= 85,500 - 8,550)  |7,695 (= 76,950 x 0.1) |3,078 (= 7,695 x 0.4) |
+
+---
+
+# CCA and Asset Sales
+
+.large[
+Rules regarding asset sales with CCA:
+
+1. No direct tax on asset sales if sale price is less than original purchase price.
+
+2. UCC of the asset pool is reduced by the sales price.
+
+3. Tax shields are generated as long as UCC remains positive.
+]
+
+---
+
+# PV of CCA tax shields
+
+.large[
+Based on the CCA rules, we can get the formula for the PV of the CCA tax shield:
+]
+
+$$
+PVTS_{CCA} = \frac{CAPEX \times d \times T_C}{r+d}\times\frac{(1+\frac{r}{2})}{(1+r)}-\frac{\text{Sales Price}_t\times d\times T_C}{r+d}\times \frac{1}{(1+r)^t}
+$$
+
+Where:&lt;br&gt;
+CAPEX is the initial purchase price of the asset.&lt;br&gt;
+`\(d\)` is the CCA rate.&lt;br&gt;
+`\(r\)` is the discount rate.&lt;br&gt;
+`\(T_C\)` is the corporate tax rate.&lt;br&gt;
+`\(t\)` is the year when the asset is sold.&lt;br&gt;
+`\(\text{Sales Price}_t\)` is the sales price of the asset at year t.
+
+.large[The first item is the PV of the tax shield generated by the asset if the asset was never sold. The second item is the tax shield decrease due to selling the asset.]
+
+The derivation for the formula can be found in the appendix of this slide.
+
+---
+
+# CCA: Example 2
+
+.large[
+Smith Industries Ltd. is purchasing a fleet of trucks for
+$105,000 and will also pay $5,000 acquisition costs. 
+The trucks will be part of their class 10 pool of assets
+that has a CCA rate of 30%.  They have a useful life of
+3 years and a net resale value of $10,000 at that time. 
+Cash inflows and outflows are $80,000 and $20,000
+per year, respectively. `\(T_C\)` = 40% and r = 14%.  
+
+Should the fleet be purchased?
+
+]
+
+---
+
+# CCA Example 2 Solution
+
+.large[Initial CAPEX:]
+$$
+FCF_0 = -(105,000 + 5,000) = \$-110,000
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+.large[Annual operating cash inflow after tax:]
+$$
+(80,000 - 20,000) \times (1-40\%) = \$36,000
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+.large[PV of the 3 year annuity income from operating:]
+`\begin{split}
+PV_{\text{Operation}} &amp;= \frac{36,000}{0.14}\times\bigg[1-\frac{1}{(1+0.14)^3}\bigg]\\
+&amp;= \$55,719
+\end{split}`
+
+---
+
+# CCA Example 2 Solution cont'd
+
+.large[PV of tax shields:]
+`\begin{split}
+PVTS_{CCA} &amp;= \frac{CAPEX \times d \times T_C}{r+d}\times\frac{(1+\frac{r}{2})}{(1+r)}-\frac{\text{Sales Price}_t\times d\times T_C}{r+d}\times \frac{1}{(1+r)^t}\\
+&amp;= \frac{110,000 \times 0.3 \times 0.4}{0.14 + 0.3}\times\frac{(1+\frac{0.14}{2})}{(1+0.14)}-\frac{10,000\times 0.3\times 0.4}{0.14+0.3}\times \frac{1}{(1+0.14)^3}\\
+&amp;= \$ 83,579
+\end{split}`
+
+&lt;br&gt;&lt;br&gt;
+
+.large[PV of asset sales:]
+$$
+PV_{\text{Salvage value}} = 10,000\times \frac{1}{(1+0.14)^3}=\$6,750
+$$
+
+---
+
+# CCA Example 2 Solution cont'd
+
+.large[Finally, NPV of purchasing the fleet:]
+$$
+NPV = -110,000 + 83,579 + 26,317 + 6,750 = \$6,646
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+.large[
+Since NPV is positive, the fleet should be purchased.
+]
+
+---
+
 
 # Further Considerations
 
-- .large[Cannibalism]
-  - Introduction of new product that **cannibalizes** revenue of an existing product. (Cash outflow)
-
-- .large[Synergies]
-  - Introduction of new product that **boosts** revenue of an existing product. (Cash inflow)
+- .large[Spillover effects: Cannibalism vs Synergy]
+  - What effect does the project has on the sales of existing products?
   
-- .large[Discount rates]
-  - Cash flows must be discounted at appropriate discount rates when calculating NPV.
+- .large[Opportunity Costs]
+
+  - Take into account the opportunity costs of alternative usage of assets such as land, building and machinery.
+  
+- .large[Recovery of working capital]
+
+  - At the end of a project, the net working capital are said to be *recovered*, leaving a final NWC of 0.
   
 - .large[Sunk costs]
-  - Expenses or costs that have already been spent are sunk costs, do **NOT** consider them as cash outflows!
+
+  - Expenses or costs that have already been spent are sunk costs, do **NOT** consider them as cash outflows.
   
 ---
+
+# In Summary
+
+.large[
+We learned:
+
+- Learned how to compute NPV of a project based on free cash flow (FCF).
+
+- How to compute FCF for every year based on accounting information.
+
+- How to calculate depreciation and tax shields with:
+  - Straight-line method
+  - CCA method
+
+- How to calculate the PV of a CCA tax shield.
+]
+
+You are now ready for the first case of the course!
+
+---
+
+# Formula Sheet
+
+$$
+NPV = \sum_{t=0}^N\frac{FCF_t}{(1+r)^t}
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+.large[Yearly FCF calculation:]
+
+$$
+FCF = \text{Unlevered NI} + Dep - CAPEX - \Delta NWC
+$$
+
+$$
+FCF = EBIT \times (1-T_C) + Dep - CAPEX - \Delta NWC
+$$
+
+$$
+FCF = EBITDA \times (1-T_C) + Dep \times T_C - CAPEX - \Delta NWC
+$$
+
+$$
+FCF = NI + \text{Interest Expenses} \times (1-T_C) + Dep - CAPEX - \Delta NWC
+$$
+---
+# Formula Sheet cont'd
+
+.large[Straight-line depreciation asset sales:]
+$$
+\text{Tax paid (or credits received)} = (\text{Sale Price} - \text{Book Value}) \times T_C
+$$
+
+&lt;br&gt;&lt;br&gt;
+
+.large[PV of CCA tax shields:]
+$$
+PVTS_{CCA} = \frac{CAPEX \times d \times T_C}{r+d}\times\frac{(1+\frac{r}{2})}{(1+r)}-\frac{\text{Sales Price}_t\times d\times T_C}{r+d}\times \frac{1}{(1+r)^t}
+$$
+---
+
+# Appendix
+
+### CCA tax shield formula derivation
+
+.large[**NOT** required for exam.]
+
+Consider separating the asset value to two equal parts:
+- First half will depreciate starting from year 1
+- Second half wil depreciate starting from year 2
+
+The depreciation tax shields generated from each half is then a (negatively) growing perpetuity with growth rate of (-d), and discount rate of r, and the value of the first cash flow is `\(CAPEX/2 \times d \times T_C\)`. Therefore,
+
+$$
+PV(\text{Asset first half}) = \frac{CAPEX/2 \times d \times T_C}{r-(-d)}
+$$
+
+$$
+PV(\text{Asset second half}) = \frac{CAPEX/2 \times d \times T_C}{r-(-d)}\times \frac{1}{1+r}
+$$
+
+---
+
+# Appendix
+
+### CCA tax shield formula derivation cont'd
+
+The reduction of tax shield due to salvage value is also a (negatively) growing perpetuity starting from year `\(t+1\)`. With the value of the first cash flow being `\(\text{Sales Price}_t \times d\times T_C\)`. Therefore,
+
+$$
+PV(\text{Salvage value tax shield decrease}) = \frac{\text{Sales Price}_t \times d\times T_C}{r-(-d)}\times\frac{1}{(1+r)^t}
+$$
+
+Sum up the first two items and minus the last item, we get the full equation:
+
+$$
+PVTS_{CCA} = \frac{CAPEX \times d \times T_C}{r+d}\times\frac{(1+\frac{r}{2})}{(1+r)}-\frac{\text{Sales Price}_t\times d\times T_C}{r+d}\times \frac{1}{(1+r)^t}
+$$
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

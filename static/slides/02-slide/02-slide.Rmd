@@ -385,18 +385,18 @@ knitr::include_graphics("10-crossoverrate.png")
 
 - The suggestion is to *perform the substraction so that the first nonzero cash flow is negative* (i.e. In this case, B-A)
 
-- This makes the incremental project an "*investing* project" so that the ultimate decision is more intuitive (Choose B over A if IRR > *r*) 
-]
+- This makes the incremental project an "*investing* project" so that the ultimate decision is more intuitive (Choose B over A if IRR > *r*) ]
 .pull-left[
-```{r, echo = F, out.width = "120%", fig.align="center"}
+```{r, echo = F, out.width = "80%", fig.align="center"}
 knitr::include_graphics("11-crossoverrate2.png")
 ```
 ]
 .pull-right[
-```{r, echo = F, out.width = "100%", fig.align="center"}
+```{r, echo = F, out.width = "80%", fig.align="center"}
 knitr::include_graphics("12-crossoverrate3.png")
 ```
 ]
+
 ---
 
 # Timing Problem: Graphical Solution
@@ -495,6 +495,23 @@ Cons:
 ```{r, echo = F, out.width = "100%", fig.align="center"}
 knitr::include_graphics("15-cfo.png")
 ```
+
+---
+
+# In Summary
+
+.large[
+We learned:
+
+- Investment Decision Rules
+  - Net Present Value (NPV)
+  - Internal Rate of Return (IRR)
+      - Incremental IRR
+  - Payback Period (PP)
+  - Profitability Index (PI)
+
+Next class we will learn how to apply these decision rules in a business scenario.
+]
 
 ---
 
