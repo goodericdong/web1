@@ -2,7 +2,7 @@
 
 Course slides are under /static/slides/
 
-/R/build.R can knit all .Rmd files into html and/or PDF for the site.
+Before pushing please use blogdown::serve_site() to update all .Rmd related html and pdf files.
 
 
 Theme: Hugo Academic
