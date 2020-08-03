@@ -18,3 +18,9 @@ output:
 
 
 <a href="/slides/03-slide/03-slide.pdf" target="_blank"><span class="btn btn-primary btn-lg"><i class="far fa-file-pdf"></i> Download slides (PDF)</span></a>
+
+<br><br>
+
+**Breakout Assignment**<br>
+<a href="/slides/03-slide/Breakout Assignment Excel Activity.docx" download>Assignment Question</a> <br>
+<a href="/slides/03-slide/Breakout Assignment Student Copy.xlsx" download>Assignment Excel Sheet</a>
