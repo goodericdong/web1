@@ -10,6 +10,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
 
 ---
 ```{css, echo = FALSE}
@@ -32,7 +33,7 @@ output:
 ```
 # How much does an investment cost?
 
-```{r, echo = F, out.width = "35%", fig.align="center"}
+```{r, echo = F, out.width = "25%", fig.align="center"}
 knitr::include_graphics("01-budget.jpg")
 ```
 
@@ -212,7 +213,7 @@ Use whichever formula that is the most convenient based on the information given
 
 .large[Find the FCF of year 2019:]
 
-```{r, echo = F, out.width = "50%", fig.align="center"}
+```{r, echo = F, out.width = "30%", fig.align="center"}
 knitr::include_graphics("02-FCF.png")
 ```
 

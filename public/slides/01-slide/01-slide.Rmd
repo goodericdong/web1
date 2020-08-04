@@ -10,6 +10,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
 
 ---
 ```{css, echo = FALSE}
@@ -33,7 +34,7 @@ output:
 
 # Money now vs Money in the future
 
-```{r, echo = F, out.width = "65%", fig.align="center"}
+```{r, echo = F, out.width = "45%", fig.align="center"}
 knitr::include_graphics("01-lottery.png")
 ```
 
@@ -268,7 +269,7 @@ class: left, middle
 # Real Life Example: Solve for Interest Rate
 
 .large[
-In 1626, Dutch Settlers who were representatives of the West India Company, which was publicly traded at the time, purchased the Island Manhattes from the Indians for a value of 60 guilders (equivalent to 24 1626 US Dollars). 
+In 1626, Dutch Settlers who were representatives of the West India Company, which was publicly traded at the time, purchased the Island Manhattes from the Indians for a value of 60 guilders (equivalent to $24 USD in 1626). 
 
 According to Bloomberg, commercial and residential properties in Manhattan were worth roughly $483.6 billion. 
 
@@ -276,7 +277,7 @@ What was the rate of return on this purchase?
 
 .pull-left[Was it a good deal?]
 .pull-right[
-```{r, echo = F, out.width = "70%", fig.align="left"}
+```{r, echo = F, out.width = "60%", fig.align="left"}
 knitr::include_graphics("02-manhattan.jpg")
 ```
 ]
@@ -429,7 +430,7 @@ We learned to:
 ---
 # Back to the lottery
 
-```{r, echo = F, out.width = "65%", fig.align="center"}
+```{r, echo = F, out.width = "45%", fig.align="center"}
 knitr::include_graphics("01-lottery.png")
 ```
 
@@ -526,18 +527,16 @@ A constant stream of cash flows with a fixed maturity *t*:
 
 ![](05-annuity.png)
 
-.large[
 $$
 PV = \frac{C}{(1+r)} + \frac{C}{(1+r)^2} + \frac{C}{(1+r)^3} + ... + \frac{C}{(1+r)^t}
 $$
-]
 
 .pull-left[
 The formula for the present value of an annuity is:
 ]
-.pull-right[.large[
+.pull-right[
 $$PV = \frac{C}{r}\bigg[1-\frac{1}{(1+r)^t}\bigg]$$
-]]
+]
 
 ---
 
@@ -686,19 +685,23 @@ We learned how to:
 
 .large[
 1. Managers might evaluate two projects and decide for none, one, or both
-2. Investors might compare investments (Bank of Montreal or Scotiabank)
-3. Loan officers decide on a loan 
-4. Financial manager may decide to raise equity or borrow money
-5. A retiree might sell her house and invest in an annuity]
 
---
+2. Investors might compare investments (Bank of Montreal or Scotiabank)
+
+3. Loan officers decide on a loan 
+
+4. Financial manager may decide to raise equity or borrow money
+
+5. A retiree might sell her house and invest in an annuity
+]
+
+<br><br>
 
 .large[
 The numbers only serve a purpose if they are useful to decision making!]
 
 ---
-# Formula Sheet
-
+### .center[Formula Sheet]
 $$ PV = \frac{FV_t}{(1+r)^t} $$
 $$ FV_t = PV(1+r)^t $$
 $$ PV(\text{Perpetuity}) =\frac{C}{r}$$

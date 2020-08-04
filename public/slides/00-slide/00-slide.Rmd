@@ -10,6 +10,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
 
 ---
 ```{css, echo = FALSE}
@@ -33,7 +34,7 @@ output:
 
 # Welcome to Finance Fundamentals
 
-```{r, echo = F, out.width = "70%", fig.align="center"}
+```{r, echo = F, out.width = "50%", fig.align="center"}
 knitr::include_graphics("stock-market-board.jpg")
 ```
 
@@ -101,7 +102,7 @@ The course website is here: https://queens-mbas821.netlify.app/. I will post mat
 ---
 # The Finance Roadmap
 
-```{r, echo = F, out.width = "90%", fig.align="center"}
+```{r, echo = F, out.width = "65%", fig.align="center"}
 knitr::include_graphics("01-roadmap.png")
 ```
 ---
@@ -199,7 +200,7 @@ knitr::include_graphics("01-roadmap.png")
 
 # Where has the money gone?
 
-```{r, echo = F, out.width = "90%", fig.align="center"}
+```{r, echo = F, out.width = "65%", fig.align="center"}
 knitr::include_graphics("04-cashflow.png")
 ```
 ---

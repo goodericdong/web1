@@ -10,6 +10,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
 
 ---
 ```{css, echo = FALSE}
@@ -33,7 +34,7 @@ output:
 
 # How do companies make investment decisions?
 
-```{r, echo = F, out.width = "65%", fig.align="center"}
+```{r, echo = F, out.width = "52%", fig.align="center"}
 knitr::include_graphics("01-tesla.png")
 ```
 
@@ -242,7 +243,7 @@ knitr::include_graphics("03-IRRtemplate.png")
 
 # Prof. Riordan's Book Project
 
-```{r, echo = F, out.width = "80%", fig.align="center"}
+```{r, echo = F, out.width = "60%", fig.align="center"}
 knitr::include_graphics("04-bookIRR.png")
 ```
 
@@ -283,7 +284,7 @@ What does the timeline look like?
 
 # Prof. Riordan's Book Project <br> (with royalties)
 
-```{r, echo = F, out.width = "60%", fig.align="center"}
+```{r, echo = F, out.width = "48%", fig.align="center"}
 knitr::include_graphics("05-multipleIRR.png")
 ```
 
@@ -318,7 +319,7 @@ Solutions to the **scale problem**:
 Do the difference between the two projects and calculate the IRR, then compare that IRR to the cost of capital.
 ]
 
-```{r, echo = F, out.width = "60%", fig.align="center"}
+```{r, echo = F, out.width = "50%", fig.align="center"}
 knitr::include_graphics("07-IncrementalIRR.png")
 ```
 
@@ -330,7 +331,7 @@ What should be the decision based on incremental IRR?
 
 # The Timing Problem
 
-```{r, echo = F, out.width = "90%", fig.align="center"}
+```{r, echo = F, out.width = "70%", fig.align="center"}
 knitr::include_graphics("08-timingproblem.png")
 ```
 
@@ -355,7 +356,7 @@ knitr::include_graphics("08-timingproblem.png")
 - Where is the *crossover rate*?
 ]
 .pull-right[
-```{r, echo = F, out.width = "90%", fig.align="center"}
+```{r, echo = F, out.width = "60%", fig.align="center"}
 knitr::include_graphics("09-timingproblem2.png")
 ```
 ]
@@ -372,7 +373,7 @@ knitr::include_graphics("09-timingproblem2.png")
 - The crossover rate (IRR of B-A) ≈ 10.55%
 ]
 
-```{r, echo = F, out.width = "50%", fig.align="center"}
+```{r, echo = F, out.width = "30%", fig.align="center"}
 knitr::include_graphics("10-crossoverrate.png")
 ```
 
@@ -401,7 +402,7 @@ knitr::include_graphics("12-crossoverrate3.png")
 
 # Timing Problem: Graphical Solution
 
-```{r, echo = F, out.width = "100%", fig.align="center"}
+```{r, echo = F, out.width = "80%", fig.align="center"}
 knitr::include_graphics("13-timingproblem3.png")
 ```
 ---
@@ -424,7 +425,7 @@ Payback Period decision rule:
 Back to the New York and Chicago example. Using the payback period as decision criteria. Assume a payback period cutoff of 3 years.
 ]
 
-```{r, echo = F, out.width = "90%", fig.align="center"}
+```{r, echo = F, out.width = "70%", fig.align="center"}
 knitr::include_graphics("14-pp.png")
 ```
 
@@ -492,7 +493,7 @@ Cons:
 
 # What do CFOs use in practice?
 
-```{r, echo = F, out.width = "100%", fig.align="center"}
+```{r, echo = F, out.width = "80%", fig.align="center"}
 knitr::include_graphics("15-cfo.png")
 ```
 
@@ -504,10 +505,14 @@ knitr::include_graphics("15-cfo.png")
 We learned:
 
 - Investment Decision Rules
+
   - Net Present Value (NPV)
+  
   - Internal Rate of Return (IRR)
       - Incremental IRR
+      
   - Payback Period (PP)
+  
   - Profitability Index (PI)
 
 Next class we will learn how to apply these decision rules in a business scenario.
