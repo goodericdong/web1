@@ -1,9 +1,24 @@
 ---
-title: Assignments
+title: Deliverables
 output:
   blogdown::html_page:
     toc: true
     fig_caption: false
 ---
 
-Under construction.
+Throughout the course, you will need to submit:
+
+  - 2 assignments (individual)
+    - Due on August 11th and 21st at 11:59pm
+    
+  - 3 case reports (group work)
+    - Due on August 12th, 19th, 24th before class
+    
+  - 1 case presentation (group work)
+    - on the day of case report submission
+    
+---
+
+Assignment 1 Questions
+
+Assignment 2 Questions
