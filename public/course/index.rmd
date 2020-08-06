@@ -8,4 +8,4 @@ output:
 
 [Course outline](../../files/MBAS-Financial-Fundamentals-Summer-2020.docx)
 
-[Excel Tutoiral](../../files/Excel Tutorial.xlsx)
+[Excel Tutorial](../../files/Excel Tutorial.xlsx)
