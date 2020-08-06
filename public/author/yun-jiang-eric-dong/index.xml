@@ -5,12 +5,27 @@
     <link>/author/yun-jiang-eric-dong/</link>
       <atom:link href="/author/yun-jiang-eric-dong/index.xml" rel="self" type="application/rss+xml" />
     <description>Yun Jiang (Eric) Dong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 06 Aug 2020 18:30:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Yun Jiang (Eric) Dong</title>
       <link>/author/yun-jiang-eric-dong/</link>
     </image>
+    
+    <item>
+      <title>Excel tutorial, Updated Assignment 1, Case 1 hint</title>
+      <link>/post/20200806/20200806/</link>
+      <pubDate>Thu, 06 Aug 2020 18:30:00 +0000</pubDate>
+      <guid>/post/20200806/20200806/</guid>
+      <description>&lt;h1 id=&#34;excel-tutorial&#34;&gt;Excel tutorial&lt;/h1&gt;
+&lt;p&gt;Excel tutorial has been added. It is under the &amp;ldquo;Course Info&amp;rdquo; tab. This file will be updated as the course goes on.&lt;/p&gt;
+&lt;h1 id=&#34;updated-assignment-1&#34;&gt;Updated Assignment 1&lt;/h1&gt;
+&lt;p&gt;Assignment 1 was updated. Q4 only has (a) and (b) two subquestions. If you downloaded an earlier version with (c) or (d), either download the newer version, or ignore (c) and/or (d) when you are working on the assignment.&lt;/p&gt;
+&lt;h1 id=&#34;case-1-hint&#34;&gt;Case 1 hint&lt;/h1&gt;
+&lt;p&gt;In the breakout activity today, you are working on an example that is very similar to the case 1 problem. However, in the case you will have to deal with the salvage value being different from the UCC at the end of the project. Since tax shield of an asset last forever under CCA (essentially a negatively growing perpetuity), calculating IRR would be difficult with the excel.&lt;/p&gt;
+&lt;p&gt;A method to do this is to extend the timeline for another 50 or 100 years after the end of the project. For these years, the only cash flow you have will be the CCA tax shield. When calculating IRR, 50 years forward should be enough to approximate a perpetuity.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
