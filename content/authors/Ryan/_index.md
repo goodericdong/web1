@@ -1,10 +1,8 @@
 ---
-# Display name
-name: Ryan Riordan
-
-# Username (this should match the folder name)
 authors:
-- admin
+- Ryan Riordan
+
+title: Ryan Riordan
 
 # Is this the primary user of the site?
 superuser: true

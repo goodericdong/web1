@@ -177,6 +177,15 @@ a, a > code {
   width: 67%;
 }
 
+.pull-left2 {
+  float: left;
+  width: 67%;
+}
+.pull-right2 {
+  float: right;
+  width: 27%;
+}
+
 .pull-right ~ * {
   clear: both;
 }

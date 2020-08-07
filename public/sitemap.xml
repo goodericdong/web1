@@ -58,6 +58,11 @@
   </url>
   
   <url>
+    <loc>/slides/04-content/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/20200806/20200806/</loc>
     <lastmod>2020-08-06T18:30:00+00:00</lastmod>
   </url>
@@ -168,10 +173,6 @@
   </url>
   
   <url>
-    <loc>/author/</loc>
-  </url>
-  
-  <url>
     <loc>/cases/</loc>
   </url>
   
@@ -189,6 +190,10 @@
   
   <url>
     <loc>/author/neal-willcott/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ryan-riordan/</loc>
   </url>
   
 </urlset>
