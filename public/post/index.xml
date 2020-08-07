@@ -5,12 +5,22 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 06 Aug 2020 18:30:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 Aug 2020 01:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>August 6th Breakout Assignment Answer Available</title>
+      <link>/post/20200807/20200807/</link>
+      <pubDate>Fri, 07 Aug 2020 01:00:00 +0000</pubDate>
+      <guid>/post/20200807/20200807/</guid>
+      <description>&lt;p&gt;The excel answer key of the breakout assignment from class on August 6th has been uploaded. It is under the slides tab/topic 3.&lt;/p&gt;
+&lt;p&gt;Reminder: Assignment 1 is due on August 11th (Tuesday) 11:59pm. Case 1 report is due on August 12th (Wednesday) 1pm.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Excel tutorial, Updated Assignment 1, Case 1 hint</title>
