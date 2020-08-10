@@ -1,0 +1,124 @@
+---
+title: "Snap Inc. Case Overview"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "atacss.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+
+---
+```{css, echo = FALSE}
+.remark-slide-content {
+  font-size: 18px;
+  padding: 20px 80px 20px 80px;
+}
+.remark-code, .remark-inline-code {
+  background: #f0f0f0;
+}
+.remark-code {
+  font-size: 20px;
+}
+.huge .remark-code { /*Change made here*/
+  font-size: 200% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 75% !important;
+}
+```
+
+# Intro to Snap Inc. Case
+
+.pull-left[
+- You are an analyst at a company that provides wireless, cloud-based broadband solutions.
+
+- You are tasked to analyze the IPO of Snap Inc., in order to provide insight for the future IPO of your company, likely coming up in the next year.
+
+- How did Snap Inc. do in the IPO?
+  - Was going public the correct decision? Was it underpriced? What could have been done better?
+  
+  - Based on what happened to Snap Inc., what advice would you give to your company regarding IPO?
+]
+.pull-right[
+```{r, echo = F, out.width = "80%", fig.align="center"}
+knitr::include_graphics("01-snap.png")
+```
+]
+---
+
+# Initial Public Offering (IPO)
+.large[
+The **IPO** is a major transition in the life of the firm.
+
+Advantages of IPO:
+]
+
+- More liquidity to shares and other securities.
+
+- Raise capital for upcoming large scale projects.
+
+- Free advertisement, prestige, etc.
+
+.large[Disadvantages of IPO:]
+
+- Cost of reporting and fulfilling disclosure criteria of a public firm.
+
+- Less control over the firm.
+
+---
+
+# Should your company go public?
+.large[
+There are many many considerations when deciding on whether or not to go public. A few is listed below, but there are certainly more.
+
+*For*:
+]
+
+- The company has an opportunity to invest in a large scale project that will create a lot of value. But more capital is required.
+
+- The current shareholders are looking to *exit*.
+
+- The general public has good sentiment to the company which can be taken advantage of if goes public.
+
+.large[*Against*:]
+
+- More difficult to focus on long term goals.
+
+- Disclosure of company's activities may be a liability.
+
+- Lack of projects to take advantage of the capital raised from IPO.
+
+---
+
+# Case Objective
+- This case requires you to comment on the IPO of Snap Inc.
+
+- This case requires understanding of securities and firm valuation.
+
+  - Try to estimate Snap Inc.'s value.
+      - Which method should you use? DDM or DCF or Multiples?
+    
+  - Base on your valuation, was the IPO successful?
+      - Remember that a firm's ultimate goal is to create value for its shareholders. Did the IPO create value / provide benefits for its shareholders?
+      
+  - Apart from valuation, this case involves a lot of qualitative analysis.
+  
+  - Feel free to gather data from sources outside the case to support your claim or assumptions.
+
+---
+# Case Discussion
+
+.large[
+Please spend a few minutes with your team to discuss the case.
+
+Some questions to consider:
+
+- Which valuation method(s) should you use to estimate the value of Snap Inc. during its IPO?
+
+- What costs and benefits are associated with an IPO?
+
+- In general, why should a firm go public? When should a firm go public?
+]

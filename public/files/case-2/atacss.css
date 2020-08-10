@@ -138,7 +138,7 @@ a, a > code {
 .remark-code-line-highlighted     { background-color: #ffff88; }
 
 .inverse, .hljs-github {
-  background-image: url(Queens_bg_4_3.png);
+  background-image: url(Queens_bg_16_9.png);
   background-size: contain;
 }
 .inverse h1, .inverse h2, .inverse h3 {
@@ -175,6 +175,15 @@ a, a > code {
 .pull-right1 {
   float: right;
   width: 67%;
+}
+
+.pull-left2 {
+  float: left;
+  width: 67%;
+}
+.pull-right2 {
+  float: right;
+  width: 27%;
 }
 
 .pull-right ~ * {
