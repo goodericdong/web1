@@ -1,0 +1,21 @@
+---
+title: "Topic 5: Risk and Return"
+linktitle: "5. Risk and Return"
+date: "`r Sys.Date()`"
+menu:
+  content:
+    parent: Course Slides
+    weight: 40
+type: docs
+bibliography: "../../static/bib/references.bib"
+csl: "../../static/bib/chicago-fullnote-bibliography-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+<a href="/slides/05-slide/05-slide.html" target="_blank"><span class="btn btn-primary btn-lg"><i class="fas fa-external-link-alt"></i> Open slides (html)</span> </a>
+
+
+<a href="/slides/05-slide/05-slide.pdf" target="_blank"><span class="btn btn-primary btn-lg"><i class="far fa-file-pdf"></i> Download slides (PDF)</span></a>
+

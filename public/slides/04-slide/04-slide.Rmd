@@ -956,7 +956,7 @@ $$
 ]
 ---
 
-# Firm Valuation: Breakout Activity
+# Breakout Activity: Firm Valuation
 .large[
 Discuss the following:
 
@@ -965,7 +965,9 @@ Discuss the following:
 - Consider how these firms generate their revenues and incomes and their incentives. What are some of the issues that can arise from this? How can this affect market prices and their accuracy? Has this led to any big market events?
 
 ]
-
+```{r, echo = F, out.width = "20%", fig.align="center"}
+knitr::include_graphics("14-lovestock.jpg")
+```
 ---
 
 # Stock: Summary
