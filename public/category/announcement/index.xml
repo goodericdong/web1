@@ -5,12 +5,22 @@
     <link>/category/announcement/</link>
       <atom:link href="/category/announcement/index.xml" rel="self" type="application/rss+xml" />
     <description>Announcement</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 11 Aug 2020 22:46:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 13 Aug 2020 17:56:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Announcement</title>
       <link>/category/announcement/</link>
     </image>
+    
+    <item>
+      <title>Updated Excel tutorial, Uploaded assignment 1 answer</title>
+      <link>/post/20200813/20200813/</link>
+      <pubDate>Thu, 13 Aug 2020 17:56:00 +0000</pubDate>
+      <guid>/post/20200813/20200813/</guid>
+      <description>&lt;p&gt;Updated Excel tutorial (Assignment Q5, YTM calculation, DCF example) - Under &amp;ldquo;Course Info&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Uploaded assignment 1 answer key. - Under &amp;ldquo;Assignment&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Assignment 2 Available</title>
