@@ -9,7 +9,7 @@ output:
 Throughout the course, you will need to submit:
 
   - 2 assignments (individual)
-    - Due on August 11th and 21st at 11:59pm
+    - Due on August 11th and 24th at 11:59pm
     
   - 3 case reports (group work)
     - Due on August 12th, 19th, 24th before class
