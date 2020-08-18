@@ -5,12 +5,21 @@
     <link>/category/announcement/</link>
       <atom:link href="/category/announcement/index.xml" rel="self" type="application/rss+xml" />
     <description>Announcement</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Aug 2020 15:17:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Aug 2020 17:42:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Announcement</title>
       <link>/category/announcement/</link>
     </image>
+    
+    <item>
+      <title>Practice problems and exam instructions are uploaded</title>
+      <link>/post/20200818/20200818/</link>
+      <pubDate>Tue, 18 Aug 2020 17:42:00 +0000</pubDate>
+      <guid>/post/20200818/20200818/</guid>
+      <description>&lt;p&gt;Please go to the Course Info tab to download the practice problems and answers, and some hints on how to prepare for the exam.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Assignment 2 Deadline extended to 24th August</title>

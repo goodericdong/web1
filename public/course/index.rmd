@@ -9,3 +9,7 @@ output:
 [Course outline](../../files/MBAS-Financial-Fundamentals-Summer-2020.docx)
 
 [Excel Tutorial](../../files/Excel Tutorial.xlsx)
+
+[Problem Sets and Answers](../../files/ProblemSet.zip)
+
+[What you should know for the exam](../../files/Exam Instruction.docx)
