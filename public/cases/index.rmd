@@ -19,3 +19,5 @@ output:
 
 <br><br>
 3. <a href = "https://web.prod.business.queensu.ca/LivingCase/Nodes/Usage/311109/65a3ce17-70fb-4909-90e2-8ff23bf8c0f3" target = "_blank">**HOOPP What's Next?**</a>
+
+  - Case Overview <a href="/slides/cases/03-slide/03-slide.html" target="_blank">html</a> <a href="/slides/cases/03-slide/03-slide.pdf" target="_blank">PDF</a>

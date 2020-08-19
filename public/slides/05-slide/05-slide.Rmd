@@ -74,7 +74,7 @@ Note: we changed CPN to Income so that the formula can be used for all securitie
 # HPR: Example
 
 .large[
-Assume 10 shares of stock "Get Rich Quick" is bought immediately after issuing a dividend and sold immediately after issuing a dividend one year later. The stock was bought for $22, sold for $27 and the dividend was $2. What was the holding period return?
+Assume 10 shares of stock "Get Rich Quick" were bought immediately after issuing a dividend and sold immediately after issuing a dividend one year later. The stock was bought for $22, sold for $27 and the dividend was $2. What was the holding period return?
 ]
 
 ---
@@ -82,7 +82,7 @@ Assume 10 shares of stock "Get Rich Quick" is bought immediately after issuing a
 # HPR: Example
 
 .large[
-Assume 10 shares of stock "Get Rich Quick" is bought immediately after issuing a dividend and sold immediately after issuing a dividend one year later. The stock was bought for $22, sold for $27 and the dividend was $2. What was the holding period return?
+Assume 10 shares of stock "Get Rich Quick" were bought immediately after issuing a dividend and sold immediately after issuing a dividend one year later. The stock was bought for $22, sold for $27 and the dividend was $2. What was the holding period return?
 ]
 
 Answer:
@@ -90,13 +90,13 @@ Answer:
 For buying one share:
 
 \begin{equation}
-HPR = \frac{P_1 - P_0 + D_1}{P_0} = \frac{27-22+2}{2}=31.8\%
+HPR = \frac{P_1 - P_0 + D_1}{P_0} = \frac{27-22+2}{22}=31.8\%
 \end{equation}
 
 For 10 shares:
 
 \begin{equation}
-HPR = \frac{P_1 - P_0 + D_1}{P_0} = \frac{270-220+20}{20}=31.8\%
+HPR = \frac{P_1 - P_0 + D_1}{P_0} = \frac{270-220+20}{220}=31.8\%
 \end{equation}
 
 They are the same - return is a percentage and is not affected by the amount of initial investment.

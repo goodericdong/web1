@@ -1,0 +1,125 @@
+---
+title: "HOOPP Case Overview"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "atacss.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+
+---
+```{css, echo = FALSE}
+.remark-slide-content {
+  font-size: 18px;
+  padding: 20px 80px 20px 80px;
+}
+.remark-code, .remark-inline-code {
+  background: #f0f0f0;
+}
+.remark-code {
+  font-size: 20px;
+}
+.huge .remark-code { /*Change made here*/
+  font-size: 200% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 75% !important;
+}
+```
+
+# Intro to HOOPP Case
+
+.pull-left[
+- You are a team of investment managers for Healthcare of Ontario Pension Plan.
+
+  - You are focusing on the insurance and reinsurance industries.
+  
+- You are preparing an analysis and recommendation for the CEO of HOOPP about the insurance and reinsurance industry.
+
+  - What are the expected returns?
+  
+  - What are the risks?
+
+]
+.pull-right[
+```{r, echo = F, out.width = "100%", fig.align="center"}
+knitr::include_graphics("01-HOOPP.png")
+```
+]
+
+---
+
+# Pension Funds
+.large[
+HOOPP is a pension fund.
+
+- It manages assets and use the profits from the investments to pay the retirees enrolled in their pension fund programs.
+
+- In order to fulfill the obligations, it has to manage its investments such that both the expected return and the risk need to be maintained at an appropriate level.
+
+- It is expected that a pension fund is less willing to take risks comparing to an average firm.
+
+- But most investments are risky in nature. How to reduce the risk of HOOPP's investments in the insurance industry?
+]
+
+---
+
+# Risk Management through Hedging
+.large[
+*Hegding* is a way to reduce risk of adverse price movements in an asset, by taking offsetting position in a related security.
+
+Examples of hedging:
+]
+
+- Buying house insurance: Owning a house exposes you to risk of losing the house due to fires, break-ins, other natural disasters, etc. You can hedge by buying house insurance, which pays you when those disasters happen.
+
+- Buying options: Owning a stock exposes you to the risk of stock price going down. You can hedge this risk by purchasing a put option.
+
+- Example in the case: Since HOOPP pays retirees monthly income for the remainder of their lives, HOOPP is exposed to the risk of increasing average longetivity which would result in more obligations. Selling life insurance policies would offset this risk since increasing longetivity would result in higher insurance premium received.
+
+.large[
+Overall, hedging would reduce the amount of loss for unsuccessful investments, but it comes at the price of reduced profit when the investment is successful.
+]
+
+
+---
+
+# Case Objective
+.large[
+- This case requires you to analyze the type of risks of both the HOOPP's operations (as a pension fund), and of the potential insurance and reinsurance industries that HOOPP will likely invest in.
+
+- Consider the following type of risks listed in the case, and discuss them thoroughly.
+]
+  - Equity Risk
+  - Interest Rate Risk
+  - Inflation Risk
+  - Longevity Risk
+  - Foreign Currency Risk
+  - Credit Risk
+  - Liquidity Risk
+  
+.large[
+- This case is not focused on the quantitative side of finance. You should discuss the risks of different investments and recognize how these risks interact with each other. i.e. What are the correlation between these different risks?
+]
+
+---
+# Case Discussion
+
+.large[
+Please spend a few minutes with your team to discuss the case.
+
+Some questions to consider:
+
+- What types of risks is HOOPP facing as a pension fund?
+
+  - How do these risks work?
+
+- What types of risks is associated with the insurance and reinsurance industry?
+  
+  - How do these risks work?
+  
+- Overall, how to reduce HOOPP's portfolio risk to an acceptable level, while maintaining an acceptable level of expected returns?
+]
