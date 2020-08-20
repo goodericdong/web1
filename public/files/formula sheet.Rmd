@@ -1,0 +1,185 @@
+---
+title: MBAS 821 Formula Sheet
+output: html_document
+---
+
+<br><br>
+
+# 1. Time Value of Money
+$$ PV = \frac{FV_t}{(1+r)^t} $$
+$$ FV_t = PV(1+r)^t $$
+$$ PV(\text{Perpetuity}) =\frac{C}{r}$$
+$$ PV(\text{Annuity}) = \frac{C}{r}\bigg[1-\frac{1}{(1+r)^t}\bigg]$$
+$$ PV(\text{Growing Perpetuity}) = \frac{C}{r-g}$$
+$$ PV(\text{Growing Annuity}) = \frac{C}{r-g}\bigg[1-\bigg(\frac{1+g}{1+r}\bigg)^t\bigg]$$
+$$ 1 + EAR = (1+\frac{APR}{m})^m$$
+$$ FV_t(\text{Continuous Compounding}) = e^{rt}$$
+
+<br><br>
+
+# 2. Investment Decisions
+
+$$
+NPV = \sum_{t=1}^T\frac{CF_t}{(1+r)^t}-C_0
+$$
+
+$$
+\sum_{t=1}^T\frac{CF_t}{(1+IRR)^t} -C_0 = 0
+$$
+
+$$
+PI = \frac{\sum_{t=1}^T \frac{CF_t}{(1+r)^t}}{C_0}
+$$
+
+<br><br>
+
+# 3. Capital Budgeting
+
+$$
+NPV = \sum_{t=0}^N\frac{FCF_t}{(1+r)^t}
+$$
+<br><br>
+
+### Yearly FCF Calculation
+
+$$
+FCF = \text{Unlevered NI} + Dep - CAPEX - \Delta NWC
+$$
+
+$$
+FCF = EBIT \times (1-T_C) + Dep - CAPEX - \Delta NWC
+$$
+
+$$
+FCF = EBITDA \times (1-T_C) + Dep \times T_C - CAPEX - \Delta NWC
+$$
+
+$$
+FCF = NI + \text{Interest Expenses} \times (1-T_C) + Dep - CAPEX - \Delta NWC
+$$
+
+<br><br>
+
+### Straight-line depreciation asset sales
+$$
+\text{Tax paid (or credits received)} = (\text{Sale Price} - \text{Book Value}) \times T_C
+$$
+
+<br><br>
+
+### PV of CCA tax shields
+$$
+PVTS_{CCA} = \frac{CAPEX \times d \times T_C}{r+d}\times\frac{(1+\frac{r}{2})}{(1+r)}-\frac{\text{Sales Price}_t\times d\times T_C}{r+d}\times \frac{1}{(1+r)^t}
+$$
+
+<br><br>
+
+# 4. Securities and Firm Valuation
+
+$$
+P(\text{Zero-coupon bond})= \frac{FV}{(1+YTM_n)^n}
+$$
+
+
+\begin{split}
+&P(\text{Coupon bond}) = \frac{CPN}{YTM_n}\bigg[1-\frac{1}{(1+YTM_n)^n}\bigg]+\frac{FV}{(1+YTM_n)^n}\\
+\text{YTM calculation: } \qquad & \frac{CPN}{YTM_n}\bigg[1-\frac{1}{(1+YTM_n)^n}\bigg]+\frac{FV}{(1+YTM_n)^n} -P=0
+\end{split}
+
+
+
+\begin{equation}
+HPR = \frac{P_n - P_0 + \sum_{t=1}^n CPN_t}{P_0}
+\end{equation}
+
+<br><br>
+
+### DDM
+
+$$
+P(DDM) = \sum_{t=1}^\infty \frac{Div_t}{(1+r)^t}
+$$
+
+$$
+g = RR \times ROE \qquad \text{where}\qquad RR = \frac{\text{Retained Earnings}}{\text{Net Income}}
+$$
+
+$$
+\text{Constant growth: }\quad r = \frac{Div_{t+1}}{P_t}+g
+$$
+
+<br><br>
+
+### DCF
+
+$$
+\text{Enterprise Value} = \text{Market Value of Equity} + \text{Debt} - \text{Cash}
+$$
+
+\begin{equation}
+V_0 = \sum_{t=1}^\infty \frac{FCF_t} {(1 + r_{WACC})^t}
+\end{equation}
+
+$$
+P_0 = \frac{V_0 + \text{Cash}_0 - \text{Debt}_0}{\text{Shares Outstanding}_0}
+$$
+
+\begin{equation}
+V_0 = \bigg(\sum_{t=1}^N \frac{FCF_t}{(1+r_{WACC})^N}\bigg) + \frac{V_N}{(1+r_{WACC})^N}
+\end{equation}
+
+\begin{equation}
+V_N (\text{Terminal Value}) = \frac{FCF_{N+1}}{r_{WACC}-g}
+\end{equation}
+
+<br><br>
+
+### P/E Multiples
+
+\begin{equation}
+P_{\text{target}} = \text{Average P/E ratio from comparables} \times EPS_{\text{target}}
+\end{equation}
+
+<br><br>
+
+# 5. Risk and Return
+
+\begin{equation}
+HPR = \frac{P_n - P_0 + \sum_{t=1}^n \text{Income}_t}{P_0}
+\end{equation}
+
+\begin{equation}
+  \bar{r} = \frac{1}{n} \sum_{t=1}^n r_t
+\end{equation}
+  
+\begin{equation}
+  r_{geo} = \bigg[\prod_{t=1}^n(1+r_t)\bigg]^{\frac{1}{n}}-1
+\end{equation}
+
+\begin{equation}
+  \sigma^2 = \frac{\sum_{t=1}^n(r_t -\bar{r})^2}{n-1}
+\end{equation}
+
+\begin{equation}
+E(R) = \sum_{i=1}^N R_iPr(i)
+\end{equation}
+
+\begin{equation}
+\sigma^2 = \sum_{i=1}^N \bigg[\big(R_i - E(R)\big)^2 Pr(i)\bigg]
+\end{equation}
+
+\begin{equation}
+E(R_p) = \sum_{i=1}^N W_iE(R_i)
+\end{equation}
+
+$$
+\sigma_P^2 = W_A^2\sigma_A^2 + W_B^2\sigma_B^2 + 2W_AW_Bcov(R_A,R_B)
+$$
+
+\begin{equation}
+cov(R_A,R_B) = \sum_{i=1}^N Pr(i)(R_{A,i} - E(R_A))(R_{B,i} - E(R_B))
+\end{equation}
+
+\begin{equation}
+corr(R_A,R_B) = \rho_{A,B} = \frac{Cov(R_A,R_B)}{\sigma_A\sigma_B}
+\end{equation}

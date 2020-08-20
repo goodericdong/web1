@@ -11,6 +11,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
+  
 
 ---
 <style type="text/css">
@@ -316,7 +317,7 @@ HPR = \frac{P_n - P_0 + \sum_{t=1}^n CPN_t}{P_0}
 .large[
 - Suppose you buy a Government of Canada bond for $1,170.60.  The bond has a $1,000 face value, a 5% annual coupon and a 3% YTM and matures in 10 years.
 
-- One year later, you sell the bond when the YTM was 2%. What is your holding period return?
+- 2 years later, you sell the bond when the YTM was 2%. What is your holding period return?
 ]
 <img src="05-hpr.png" width="55%" style="display: block; margin: auto;" />
 
@@ -324,12 +325,704 @@ HPR = \frac{P_n - P_0 + \sum_{t=1}^n CPN_t}{P_0}
 
 # HPR: Example
 .large[
-Find the selling price of the bond at year 1:
+First find the selling price of the bond at year 1:
 
-We can consider this as a new bond that has FV of $1,000, **9** years to maturity, 5% annual coupon, and 2% YTM and calculate the fair price at year 1.
+We can consider this as a new bond that has FV of $1,000, **8** years to maturity, 5% annual coupon, and 2% YTM and calculate the fair price at year 2.
+
+$$
+P_2 = \frac{1,000 \times 0.05}{0.02}\times\bigg[1-\frac{1}{(1+0.02)^8}\bigg] + \frac{1,000}{(1+0.02)^8}= \$1,219.76
+$$
+
+The 2-year holding period return (HPR) is hence:
+
+$$
+HPR = \frac{P_2 - P_0 + CPN \times 2}{P_0} = 12.74\%
+$$
+]
+---
+
+# Bond Price vs YTM
+
+.large[
+Let's look at what can affect bond price:
+
+Consider a coupon bond with FV $1,000, 5% Annual coupon, with 10 years to maturity, but various YTMs:
+]
+<img src="06-price_ytm.png" width="100%" style="display: block; margin: auto;" />
+---
+
+# YTM and risks
+
+.large[
+- Bond prices decrease when YTM increases.
+
+- Bond prices increase when YTM decreases.
+
+<br><br>
+
+What factors can affect YTM?
+
+YTM reflects the **risks** of a bond:
+
+Bonds with higher risk tend to have larger YTMs.
+]
+
+---
+
+# Risk factors of bond
+
+.large[
+- Interest Rate Risk
+
+  - The price of the bond changes due to future change in interest rate. As interest rate increases, bond price decreases.
+  
+- Credit Risk
+
+  - Bonds could default. In that case, future coupon and principal payments are lost.
+]
+
+---
+
+# Time to maturity vs Bond Price Risk
+
+.large[
+- Time to maturity
+
+  - Bonds with longer time to maturity have greater price volatility than short bonds.
+  
+  - They are more prone to interest rate risk.
+  
+]
+
+<img src="07-longbond.png" width="50%" style="display: block; margin: auto;" />
+
+---
+
+# Coupon size vs Bond Price Risk
+
+.large[
+- Size of Coupon
+
+  - Low coupon bonds have greater price volatility than high coupon bonds
+  
+  - High coupons act as "stabilizing device", since they allows larger portion of the bond's total cash flow occur at earlier dates which are less susceptible to interest rate risk and credit risk.
+  
+]
+
+<img src="08-highcoupon.png" width="40%" style="display: block; margin: auto;" />
+
+---
+
+# Bond: Summary
+.large[
+We learned:
+
+- Definition of bonds and bond-related terminologies.
+
+- How to value zero-coupon bonds
+
+- How to value coupon bonds
+
+- How to calculate YTM
+
+- Holding period return (HPR)
+
+- Bond risks
+
+- Bond price volatility
+]
+
+---
+
+# Breakout Activity: Bonds
+
+.large[
+- Work with your team
+
+- Go to https://markets.businessinsider.com/bonds
+
+- Use the Bond Finder to filter for corporate bonds.
+
+- Pick your favorite company, pick a bond and calculate its YTM (in APR)
+
+- Compare with other teams and discuss why your bonds have different YTM.
+]
+
+---
+
+# Equities! (AKA Stocks)
+
+.large[
+Any Issac Newton fans out here?
+]
+--
+.large[
+Apparently Newton was a great mathematician and physicist, but not so great as a stock investor.
+]
+--
+.pull-left[
+<img src="09-newton.png" width="80%" style="display: block; margin: auto;" />
+]
+--
+.pull-right[.large[
+> I can calculate the motions of heavenly bodies, but not the madness of people.
+
+> Sir Issac Newton --- After losing £20,000 (USD$4.6M in 2020 money) in 1721 during the South Sea stock bubble.
+]]
+
+---
+
+# Common stock
+.large[
+**Common stock** provides its owner a share of the corporation that issued the stock. A common stock owner has the following rights:
+
+- *Residual Claim*: Right to claim of firm's cash flows after all obligations to creditors and preferred stockholders.
+  
+- *Limited Liability*: Common stock owner cannot lose more than their investment.
+
+- *Right to share dividend*
+
+- *Right to vote*
+
+- *Preemptive right*: Right to purchase newly issued stock from the firm before outsiders.
+]
+
+---
+
+# Preferred stock
+.large[
+**Preferred stock** is preferenced over common stocks when paying dividends or during liquidation.
+
+- Preferred stock usually has a *fixed dividend rate*.
+
+- Preferred stock owners usually do **NOT** have voting rights.
+]
+
+---
+
+# Debt vs Equity
+
+
+|Properties           |Debt                   |Equity |
+|:--------------------|:----------------------|:------|
+|Firm Ownership       |No                     |Yes    |
+|Tax shield           |Yes (Interest payment) |No     |
+|Can cause bankruptcy |Yes                    |No     |
+|Seniority            |High                   |Low    |
+
+---
+# Common Stock Valuation
+.large[
+We will discuss 3 methods to value the a firm's equity value:
+
+1. Dividend Discount Model (**DDM**)
+  - A stock has the same value as the sum of PV of all its future dividend payments.
+
+2. Discounted FCF Model (**DCF**)
+  - A firm's total value (Equity + Debt) is the sum of PV of all future free cash flows received by the firm.
+  - Minus the value of debt to get the market value of equity.
+
+3. **Multiples** (or Relative Valuation)
+  - Compare the target firm to similar firms.
+]
+---
+
+# Dividend Discount Model (DDM)
+
+.large[
+Consider the following Scenario:
+You own a stock of a firm. Assume that the stock pays dividend regularly and the firm will last indefinitely. The value of this stock would then be the sum of PV of all future dividend payments.
+]
+
+<img src="10-ddm.png" width="80%" style="display: block; margin: auto;" />
+
+.large[
+
+$$
+P = \sum_{t=1}^\infty \frac{Div_t}{(1+r)^t}
+$$
+]
+---
+
+# DDM cont'd
+
+.large[
+Assumptions required for DDM:
+
+- Firm will pay dividend (some firms don't!)
+
+- Firm will last indefinitely (No foreseeable bankruptcy risk)
+
+- Need to make assumptions on the amounts of future dividend payments *Div<sub>t</sub>*.
+
+- Need to make assumptions on long term discount rate *r*.
+  - This should be based on the inherent risk of the firm (More risky firms have a higher discount rate.)
+]
+
+---
+
+# DDM: 0 growth
+
+.large[
+You own a share of Smith Industries Ltd. It has just paid a dividend of $0.75 per share, and is expected to pay the same amount every year in the future. Stocks of similar risk to Smith Industries Ltd. earn 15% annual return. What should be the share price of Smith Industries Ltd.?
+]
+
+---
+
+# DDM: 0 growth
+
+.large[
+You own a share of Smith Industries Ltd. It has just paid a dividend of $0.75 per share, and is expected to pay the same amount every year in the future. Stocks of similar risk to Smith Industries Ltd. earn 15% annual return. What should be the share price of Smith Industries Ltd.?
+
+Answer: This is a simple perpetuity question.
+
+$$
+P = \frac{0.75}{0.15} = \$5
+$$
+]
+--
+.large[
+What if the dividend is expected to grow at 3% per year?
+]
+---
+
+# DDM: growth rate
+
+.large[
+You own a share of Smith Industries Ltd. It has just paid a dividend of $0.75 per share, and the dividend is expected to be paid every year at a growth rate of 3%. Stocks of similar risk to Smith Industries Ltd. earn 15% annual return. What should be the share price of Smith Industries Ltd.?
+]
+
+---
+
+# DDM: growth rate
+
+.large[
+You own a share of Smith Industries Ltd. It has just paid a dividend of $0.75 per share, and the dividend is expected to be paid every year at a growth rate of 3%. Stocks of similar risk to Smith Industries Ltd. earn 15% annual return. What should be the share price of Smith Industries Ltd.?
+
+Answer: This is now a growing perpetuity (Note: the dividend in year 1 is $0.75\times (1+0.03)$)
+
+$$
+P = \frac{0.75\times (1+0.03)}{0.15-0.03} = \$6.44
+$$
+]
+--
+.large[
+What if the dividend grows at 5% for 5 years and then grows at 3% after 5 years?
+]
+
+---
+
+# DDM: 2 growth rates
+
+.large[
+You own a share of Smith Industries Ltd. It has just paid a dividend of $0.75 per share, and the dividend is expected to be paid every year at a growth rate of 5% for the next 5 years, and at 3% after. Stocks of similar risk to Smith Industries Ltd. earn 15% annual return. What should be the share price of Smith Industries Ltd.?
+]
+
+---
+
+# DDM: 2 growth rates
+
+.large[
+You own a share of Smith Industries Ltd. It has just paid a dividend of $0.75 per share, and the dividend is expected to be paid every year at a growth rate of 5% for the next 5 years, and at 3% after. Stocks of similar risk to Smith Industries Ltd. earn 15% annual return. What should be the share price of Smith Industries Ltd.?
+
+Answer: Consider the dividend payments in the first 5 years as a growing annuity. And consider the dividend payments starting from year 6 as a growing perpetuity. (Note the year 1 dividend and year 6 dividend values)
+]
 
 \begin{split}
-P &= \frac{1,000 \times 0.05}{0.02}\times\bigg[1-\frac{1}{(1+0.02)^9}\bigg] + \frac{1,000}{(1+0.02)^9}//
-&= \$1,244.87
+P &= \frac{0.75\times (1+0.05)}{0.15-0.05}\times\bigg[1-\Big(\frac{1+0.05}{1+0.15}\Big)^5\bigg] + \frac{0.75\times (1+0.05)^5\times (1+0.03)}{0.15-0.03}\times\frac{1}{(1+0.15)^5}\\
+&=\$6.96
 \end{split}
+
+---
+
+# How to determine growth rate *g*?
+
+.large[
+Consider the net income of a firm:
+
+  - Firm can choose to distribute part or all of the net income to shareholders (Dividend)
+  
+  - Firm can choose to retain part or all of the net income to grow. (Retained Earnings)
+]
+$$
+\text{Net Income (NI)} = \text{Dividend per share (DPS)} \times \text{Shares outstanding} + \text{Retained Earnings}
+$$
+.large[
+Retained earnings leads to extra net income in the next period at return on equity (ROE):
+]
+$$
+\text{Next year NI} = \text{This year NI} + \text{Retained Earnings} \times \text{Return on Equity (ROE)}
+$$
+
+.large[
+This assumes that the return on equity (ROE) stays the same over the years.
+]
+---
+# How to determine growth rate *g*? cont'd
+.large[
+Divide both sides by This year NI:
+$$
+\frac{\text{Next year NI}}{\text{This year NI}} = 1+ \frac{\text{Retained Earnings}}{\text{This year NI}}\times ROE
+$$
+The left hand side is equivalent to *1+g*, the right hand side is equivalent to *Retention Ratio (RR)* times *ROE* plus *1*. Simplifying the equation we get:
+$$
+g = RR\times ROE
+$$
+Note: $ROE = \frac{NI}{\text{Equity}} = \frac{NI}{\text{Share price} \times \text{Shares outstanding}}$
+]
+
+---
+# Growth rate: Example
+
+.large[
+The Nickle Nouse Fire Safety and Bathrobe Company (NNFS&BC) just reported after tax income of $1.6 million. They plan to reinvest 28% of these earnings in new projects. If NNFS&BC’s historical ROE is 12%, what is the expected growth rate for OBP’s earnings?
+]
+
+---
+# Growth rate: Example
+
+.large[
+The Nickle Nouse Fire Safety and Bathrobe Company (NNFS&BC) just reported after tax income of $1.6 million. They plan to reinvest 28% of these earnings in new projects. If NNFS&BC’s historical ROE is 12%, what is the expected growth rate for OBP’s earnings?
+
+Answer:
+
+$$
+g = RR \times ROE = 28\% \times 12\% = 0.0336 = 3.36\%
+$$
+]
+---
+# How to determine the discount rate *r*?
+
+.large[
+Consider a stock that receives annual dividend payments with constant growth rate:
+
+\begin{equation}
+P_t = \frac{Div_{t+1}}{r-g}\quad \Rightarrow \quad r = \frac{Div_{t+1}}{P_t} + g
+\end{equation}
+
+The first item $\frac{Div_{t+1}}{P_t}$ is the dividend yield, the second item *g* is the expected dividend growth rate. Adding these two items together is a good estimation of the discount rate (cost of equity).
+]
+
+---
+# Discount rate: Example
+.large[
+Nick York Yankee Space Camp (NYYSC) is expected to pay a dividend of $8.06 per share next year. Future dividends are expected to grow 2% per year indefinitely. If an investor is currently willing to pay $62.00 for one share, what is her required return for this investment?
+]
+
+---
+# Discount rate: Example
+.large[
+Nick York Yankee Space Camp (NYYSC) is expected to pay a dividend of $8.06 per share next year. Future dividends are expected to grow 2% per year indefinitely. If an investor is currently willing to pay $62.00 for one share, what is her required return for this investment?
+
+Answer:
+
+\begin{equation}
+r = \frac{Div_1}{P_0} + g = \frac{8.06}{62} + 0.02 = 15\%
+\end{equation}
+]
+
+---
+
+# DDM: Pros and Cons
+
+.large[
+Pros:
+- Simple to use
+- Captures the cash flow of dividend-paying stocks, and use that to price the stock.
+
+.pull-left2[
+Cons:
+- Requires assumptions on future dividend payments, growth rates and discount rates.
+  - All of those are difficult to estimate, and a wrong estimate could change the valuation drastically.
+- Some firms do not pay dividends (e.g. Amazon)
+]
+.pull-right2[
+<img src="11-amazon.png" width="80%" style="display: block; margin: auto;" />
+]
+]
+
+---
+
+# The Discounted FCF Model (DCF)
+
+.large[
+2 Steps:
+
+1. Determine the total value of the firm to all investors, including both equity and debt holders (AKA Enterprise Value)
+  - It is equal to the PV of all future FCFs.
+
+2. Enterprise value is equal to the value of the firm's equity plus debt minus cash:
+  - $\text{Enterprise Value} = \text{Market Value of Equity} + \text{Debt} - \text{Cash}$
+  - Use the above formula to calculate the market value of equity.
+  - Then divide the market value of equity by number of shares outstanding to get the stock price.
+]
+
+---
+
+# DCF: Step 1
+.large[
+Recall the FCF formulas from topic 3:
+]
+
+\begin{split}
+FCF &= EBIT \times (1-T_C) + Dep - CAPEX - \Delta NWC\\
+&\text{or}\\
+FCF &= EBITDA \times (1-T_C) + Dep \times T_C - CAPEX - \Delta NWC
+\end{split}
+
+.large[
+Then we can get the Enterprise value (*V<sub>0</sub>*) by summing up the PV of all future FCFs:
+]
+
+\begin{equation}
+V_0 = \sum_{t=1}^\infty \frac{FCF_t} {(1 + r_{WACC})^t}
+\end{equation}
+
+.large[
+Note: The discount rate here used is the **WACC** (weighted average cost of capital), whereas in DDM, the discount rate used is the cost of equity.
+]
+
+---
+
+# DCF Step 2
+.large[
+Finally, we can price the stock by converting Enterprise Value to Market Equity Value, then divide by the number of shares outstanding:
+\begin{equation}
+P_0 = \frac{V_0 + \text{Cash}_0 - \text{Debt}_0}{\text{Shares Outstanding}_0}
+\end{equation}
+]
+---
+
+# DCF: Terminal Value
+
+.large[
+The usual practice of DCF is to forecast the FCF for N years, then for years N+1 or beyond, assume a constant long-run growth rate *g*, and calculate the terminal value (*V<sub>N</sub>*)
+
+\begin{equation}
+V_0 = \bigg(\sum_{t=1}^N \frac{FCF_t}{(1+r_{WACC})^N}\bigg) + \frac{V_N}{(1+r_{WACC})^N}
+\end{equation}
+
+*V<sub>N</sub>* can be calculated by considering it as a growing perpetuity. i.e.
+
+\begin{equation}
+V_N = \frac{FCF_{N+1}}{r_{WACC}-g}
+\end{equation}
+
+]
+
+---
+
+# DCF: Example
+<img src="12-dcf.png" width="90%" style="display: block; margin: auto;" />
+
+---
+
+# DCF: Example
+.large[
+Answer:
+]
+<img src="13-dcfans.png" width="50%" style="display: block; margin: auto;" />
+
+---
+
+# DCF: Pros and Cons
+
+.large[
+Pros: 
+
+- Considered to be the *fundamental* way of firm valuation.
+
+- Looks at the FCF of firms, can be used for firms that do not pay dividends.
+
+Cons:
+
+- Requires deep knowledge to the firm in order to forecast its future FCF.
+
+- Difficult ot predict the terminal growth rate, and small change in the terminal growth rate can cause the valuation to vary a lot.
+]
+
+---
+
+# Multiples / Relative Valuation
+.large[
+- This methodology values a company by comparing it with that of publicly traded companies in the same industry with similar operating characteristics.
+
+  - Assumes that firms are approximately the same except for scale.
+
+  - An approximation, but does provide a useful ballpark estimate. (can be useful to validate estimates using other methods)
+  
+  - Especially useful with firms that are not traded in a market. (e.g. in private equity and for IPOs)
+
+- Price/Earnings (P/E) is one of the most common multiple used by multiples valuation.
+  - In this case, earnings is considered the **base** of the multiple.
+  - Other bases can be used, e.g. EBITDA, Sales, etc.
+]
+
+---
+
+# 4 Steps for Multiples Valuation
+
+.large[
+1. Find *comparable* firms (The more the better!)
+  - Similar products, cost structure, industry, technology, customer segment, etc.
+  - Eliminate firms that have suffered *abnormal* events (e.g. takeovers, financial distress, etc.)
+  
+2. Choose a base:
+  - Usually Earnings per share (i.e. P/E ratio as the multiple)
+  - If earnings is negative, use other bases.
+  
+3. Calculate the multiples for each comparable firm, and average them.
+
+4. Value the target firm using the average multiple generated from the previous steps.
+]
+---
+
+# Multiples: Formula
+
+.large[
+When using the P/E ratio as the multiple, the market value of the target firm is:
+
+\begin{equation}
+P_{\text{target}} = \text{Average P/E ratio from comparables} \times EPS_{\text{target}}
+\end{equation}
+
+]
+
+---
+
+# Multiples: Example
+
+.large[
+Pharma Ltd. is expecting a net income of $3 million and has 1.8 million shares outstanding. What should the stock price of Pharma Ltd. be?
+
+Below are the 4 firms that are similar to **Pharma Ltd.**:
+]
+
+|Firm                  |Share.Price |EPS   |P.E   |
+|:---------------------|:-----------|:-----|:-----|
+|GlobeMed              |$13.53      |$0.85 |15.92 |
+|Medical Inc.          |$25.21      |$1.50 |16.81 |
+|Health Solutions Inc. |$5.68       |$0.30 |18.93 |
+|Medicive              |$15.80      |$1.00 |15.80 |
+
+Average P/E multiples of the comparable firms: $\frac{15.92 + 16.81 + 18.93 + 15.80}{4} = 16.87$
+
+$$
+P = 16.87 \times \frac{3M}{1.8M} = \$28.11
+$$
+---
+
+# P/E Multiples: Limitations
+.large[
+- Earnings volatility creates great volatility in P/E ratios throughout the business cycle. This can lead to low or negative earnings which disrupts intuition of meaning behind P/E.
+
+- One year’s earnings can fall, but a stock price (according to the DDM approach) is a function of many years of forecast cash flows.
+
+- Given these problems, analysts normally use smoothed or normalized estimates of earnings for the forecast year, as well as using a variety of different approaches to develop a range of potential values for the stock.
+
+- Earnings can be manipulated through *arbitrary* accounting processes.
+
+- Difficult to find enough sample size of comparable firms.
+]
+---
+
+# Breakout Activity: Firm Valuation
+.large[
+Discuss the following:
+
+- Consider that stock analysts work for brokerage firms that provide buy/sell recommendations to clients and forecast firm earnings?
+
+- Consider how these firms generate their revenues and incomes and their incentives. What are some of the issues that can arise from this? How can this affect market prices and their accuracy? Has this led to any big market events?
+
+]
+<img src="14-lovestock.jpg" width="20%" style="display: block; margin: auto;" />
+---
+
+# Stock: Summary
+
+.large[
+We learned:
+
+- How to value stocks
+
+  - DDM
+  
+  - DCF
+  
+  - Multiples
+
+- How to deal with terminal growth rate and terminal firm values.
+
+- How to find the growth rate of a firm.
+]
+
+---
+
+# Formula Sheet: Bond
+
+.large[
+$$
+P(\text{Zero-coupon bond})= \frac{FV}{(1+YTM_n)^n}
+$$
+
+
+$$
+P(\text{Coupon bond}) = \frac{CPN}{YTM_n}\bigg[1-\frac{1}{(1+YTM_n)^n}\bigg]+\frac{FV}{(1+YTM_n)^n}
+$$
+
+
+\begin{equation}
+HPR = \frac{P_n - P_0 + \sum_{t=1}^n CPN_t}{P_0}
+\end{equation}
+]
+
+---
+
+# Formula Sheet: DDM
+
+.large[
+$$
+P(DDM) = \sum_{t=1}^\infty \frac{Div_t}{(1+r)^t}
+$$
+
+$$
+g = RR \times ROE \qquad \text{where}\qquad RR = \frac{\text{Retained Earnings}}{\text{Net Income}}
+$$
+
+$$
+\text{Constant growth: }\quad r = \frac{Div_{t+1}}{P_t}+g
+$$
+]
+---
+
+# Formula Sheet: DCF
+$$
+\text{Enterprise Value} = \text{Market Value of Equity} + \text{Debt} - \text{Cash}
+$$
+
+\begin{equation}
+V_0 = \sum_{t=1}^\infty \frac{FCF_t} {(1 + r_{WACC})^t}
+\end{equation}
+
+$$
+P_0 = \frac{V_0 + \text{Cash}_0 - \text{Debt}_0}{\text{Shares Outstanding}_0}
+$$
+
+## Terminal Value DCF
+
+\begin{equation}
+V_0 = \bigg(\sum_{t=1}^N \frac{FCF_t}{(1+r_{WACC})^N}\bigg) + \frac{V_N}{(1+r_{WACC})^N}
+\end{equation}
+
+\begin{equation}
+V_N = \frac{FCF_{N+1}}{r_{WACC}-g}
+\end{equation}
+
+---
+
+# Formula Sheet: P/E Multiples
+.large[
+\begin{equation}
+P_{\text{target}} = \text{Average P/E ratio from comparables} \times EPS_{\text{target}}
+\end{equation}
 ]
