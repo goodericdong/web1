@@ -35,6 +35,21 @@
     </item>
     
     <item>
+      <title>Correction to slides in Topic 3</title>
+      <link>/post/20200823/20200823/</link>
+      <pubDate>Sun, 23 Aug 2020 09:32:00 +0000</pubDate>
+      <guid>/post/20200823/20200823/</guid>
+      <description>&lt;p&gt;I was notified by a student that the numbers in CCA example 2 (slide 26-27) were wrong.&lt;/p&gt;
+&lt;p&gt;Below are the corrections:&lt;/p&gt;
+&lt;p&gt;slide 26: PV of 3 year annuity income from operating should be 83,759 instead of 55,719&lt;/p&gt;
+&lt;p&gt;slide 27: PV of tax shield should be 26,317 instead of 83,579&lt;/p&gt;
+&lt;p&gt;slide 28 was correct.&lt;/p&gt;
+&lt;p&gt;I have updated the slides and the newest versions should have the correct numbers.&lt;/p&gt;
+&lt;p&gt;NOTE: the formulas were correct and if you put in the numbers in the formula you should be able to get the correct number.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Formula sheet uploaded</title>
       <link>/post/20200820/20200820/</link>
       <pubDate>Thu, 20 Aug 2020 10:34:00 +0000</pubDate>

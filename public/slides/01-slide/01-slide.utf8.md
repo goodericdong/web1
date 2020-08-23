@@ -1,6 +1,6 @@
 ---
-title: "MBAS 821: Topic 3"
-subtitle: "Capital Budgeting"
+title: "MBAS 821: Topic 1"
+subtitle: "Time Value of Money"
 author: "Ryan Riordan"
 output:
   xaringan::moon_reader:

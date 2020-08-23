@@ -477,7 +477,7 @@ $$
 .large[PV of the 3 year annuity income from operating:]
 \begin{split}
 PV_{\text{Operation}} &= \frac{36,000}{0.14}\times\bigg[1-\frac{1}{(1+0.14)^3}\bigg]\\
-&= \$55,719
+&= \$83,579
 \end{split}
 
 ---
@@ -488,7 +488,7 @@ PV_{\text{Operation}} &= \frac{36,000}{0.14}\times\bigg[1-\frac{1}{(1+0.14)^3}\b
 \begin{split}
 PVTS_{CCA} &= \frac{CAPEX \times d \times T_C}{r+d}\times\frac{(1+\frac{r}{2})}{(1+r)}-\frac{\text{Sales Price}_t\times d\times T_C}{r+d}\times \frac{1}{(1+r)^t}\\
 &= \frac{110,000 \times 0.3 \times 0.4}{0.14 + 0.3}\times\frac{(1+\frac{0.14}{2})}{(1+0.14)}-\frac{10,000\times 0.3\times 0.4}{0.14+0.3}\times \frac{1}{(1+0.14)^3}\\
-&= \$ 83,579
+&= \$ 26,317
 \end{split}
 
 <br><br>
