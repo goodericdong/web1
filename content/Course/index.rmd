@@ -15,3 +15,6 @@ output:
 [What you should know for the exam](../../files/Exam Instruction.docx)
 
 Formula Sheet for Final <a href="/files/formula-sheet.html" target="_blank">html</a> <a href="/files/formula sheet.pdf" target="_blank">PDF</a>
+
+Practice MC Questions <a href="/files/Practice MC/mc.html" target="_blank">html</a> <a href="/files/Practice MC/mc.pdf" target="_blank">PDF</a>
+
