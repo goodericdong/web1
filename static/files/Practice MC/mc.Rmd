@@ -1,0 +1,130 @@
+---
+title: "Practice MC Questions"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "atacss.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+  
+
+---
+
+```{css, echo = FALSE}
+.remark-slide-content {
+  font-size: 18px;
+  padding: 20px 80px 20px 80px;
+}
+.remark-code, .remark-inline-code {
+  background: #f0f0f0;
+}
+.remark-code {
+  font-size: 20px;
+}
+.huge .remark-code { /*Change made here*/
+  font-size: 200% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 75% !important;
+}
+```
+
+
+# Q1. A given rate is quoted as 9% APR, but has an EAR of 9.3807%. What is the rate of compounding during the year?
+
+<br><br>
+
+.large[
+A. Biannually
+
+B. Annually
+
+C. Semiannually
+
+D. Monthly
+
+E. Continuously
+]
+
+---
+
+# Q2
+
+.large[
+A cheque-cashing store is in the business of making personal loans to walk-in customers. The store makes only one-week loans at 5 percent interest per week. What annual percentage rate (APR) must the store report to its customers? What is the effective annual rate (EAR) that the customers are actually paying?
+]
+
+<br><br>
+
+.large[
+A. APR=6.84% ; EAR=55.98%
+
+B. APR=7.67% ; EAR=92.90%
+
+C. APR=8.29% ; EAR=45.98%
+
+D. APR=125.00% ; EAR=45.98%
+
+E. APR=260.00% ; EAR=1,164.28%
+]
+
+---
+
+# Q3. Which of the following would happen if the interest rate increases?
+
+<br><br>
+
+.large[
+A. Present value of annuity would increase
+
+B. Price of bond would increase
+
+C. NPV of an investing project would increase
+
+D. NPV of an financing project would increase
+]
+
+---
+
+# Q4. Which of the following statements is correct?
+
+<br><br>
+
+.large[
+
+A. Firm’s debt-holders are the residual claimants to the firm’s cash flows.
+
+B. Firm's preferred shareholders are the residual claimants to the firm’s cash flows.
+
+C. Firm could go bankrupt if it could not pay dividend to its shareholders.
+
+D. Preferred shareholders have higher seniority than common stock shareholders during liquidation.
+]
+
+---
+
+# Q5. 
+
+.large[
+A portfolio with 2 stocks (50% A and 50% B) would experience an increase in return variance if:
+]
+
+.large[
+A. There is an increase in the expected return of stock A.
+
+B. There is an increase in the return standard deviation of stock B.
+
+C. There is an increase in the covariance between the returns of stock A and B.
+
+D. A and B
+
+E. A and C
+
+F. B and C
+]
+
+
+
