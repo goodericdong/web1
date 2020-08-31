@@ -18,3 +18,4 @@ Formula Sheet for Final <a href="/files/formula-sheet.html" target="_blank">html
 
 Practice MC Questions <a href="/files/Practice MC/mc.html" target="_blank">html</a> <a href="/files/Practice MC/mc.pdf" target="_blank">PDF</a>
 
+[Final Exam Answer Key and Marking Scheme](../../files/MBAS 821 Final Exam - Answer and Marking Scheme.zip)
